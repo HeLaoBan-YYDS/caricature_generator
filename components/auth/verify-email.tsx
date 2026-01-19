@@ -62,12 +62,12 @@ export function VerifyEmailPage() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-background p-4">
-      <Card className="w-full max-w-md shadow-2xl border-0 bg-secondary/80 backdrop-blur-sm cyber-glow-subtle">
+      <Card className="w-full max-w-md shadow-2xl border-0 bg-card">
         <CardHeader className="text-center space-y-4">
           <div className={`mx-auto w-16 h-16 rounded-2xl flex items-center justify-center ${
             status === 'loading' || status === 'success' || status === 'error'
-              ? 'bg-primary cyber-glow'
-              : 'bg-secondary shadow-lg border border-cyber-500/30'
+              ? 'bg-primary shadow-md'
+              : 'bg-secondary shadow-lg border border-border'
           }`}>
             {status === 'loading' && <Loader2 className="w-8 h-8 text-primary-foreground animate-spin" />}
             {status === 'success' && <CheckCircle className="w-8 h-8 text-primary-foreground" />}
@@ -101,7 +101,7 @@ export function VerifyEmailPage() {
           )}
 
           {status === 'success' && (
-            <Alert className="border-cyber-500/30 bg-primary/20">
+            <Alert className="border-primary/30 bg-primary/20">
               <CheckCircle className="h-4 w-4 text-primary" />
               <AlertDescription className="text-primary/80">{message}</AlertDescription>
             </Alert>
@@ -116,7 +116,7 @@ export function VerifyEmailPage() {
 
           <div className="text-center space-y-4">
             {status === 'success' && (
-              <Button asChild className="w-full bg-primary hover:bg-primary/90 text-primary-foreground cyber-glow">
+              <Button asChild className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
                 <Link href={getLocalizedPath("/auth/signin")}>
                   {t('login_now')}
                 </Link>
@@ -125,7 +125,7 @@ export function VerifyEmailPage() {
 
             {status === 'error' && (
               <div className="space-y-3">
-                <Button asChild variant="outline" className="w-full border-cyber-500/30 bg-secondary/50 text-foreground hover:bg-primary/20 hover:text-primary">
+                <Button asChild variant="outline" className="w-full border-border bg-secondary/50 text-foreground hover:bg-primary/20 hover:text-primary">
                   <Link href={getLocalizedPath("/auth/signup")}>
                     {t('register_again')}
                   </Link>

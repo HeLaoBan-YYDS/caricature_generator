@@ -62,7 +62,7 @@ export function Testimonials() {
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <Card className="bg-secondary/90 backdrop-blur-sm border-0 shadow-2xl ring-1 ring-cyber-500/50 cyber-glow-subtle">
+          <Card className="bg-secondary/90 border-0 shadow-2xl ring-1 ring-primary/50">
             <CardContent className="p-12">
               {/* 星级评分 */}
               <div className="flex justify-center mb-8">
@@ -83,7 +83,7 @@ export function Testimonials() {
 
               {/* 用户信息 */}
               <div className="flex items-center justify-center space-x-4">
-                <div className="relative w-16 h-16 rounded-full overflow-hidden bg-gradient-to-br from-cyber-500 to-cyber-600 cyber-glow">
+                <div className="relative w-16 h-16 rounded-full overflow-hidden bg-gradient-to-br from-primary to-primary shadow-md">
                   <div className="w-full h-full flex items-center justify-center">
                     <span className="text-primary-foreground font-semibold text-lg">
                       {currentTestimonial.name.split(' ').map(n => n[0]).join('')}
@@ -106,7 +106,7 @@ export function Testimonials() {
               variant="outline"
               size="icon"
               onClick={prevTestimonial}
-              className="rounded-full w-12 h-12 border-cyber-500/50 bg-secondary/50 hover:bg-secondary text-primary backdrop-blur-sm transition-all duration-300 cyber-glow-subtle"
+              className="rounded-full w-12 h-12 border-primary/50 bg-secondary/50 hover:bg-secondary text-primary transition-all duration-300"
             >
               <ChevronLeft className="w-5 h-5" />
             </Button>
@@ -119,7 +119,7 @@ export function Testimonials() {
                   onClick={() => goToTestimonial(index)}
                   className={`w-3 h-3 rounded-full transition-all duration-300 ${
                     index === currentIndex
-                      ? 'bg-primary scale-125 cyber-glow'
+                      ? 'bg-primary scale-125 shadow-md'
                       : 'bg-secondary hover:bg-primary/50'
                   }`}
                 />
@@ -130,7 +130,7 @@ export function Testimonials() {
               variant="outline"
               size="icon"
               onClick={nextTestimonial}
-              className="rounded-full w-12 h-12 border-cyber-500/50 bg-secondary/50 hover:bg-secondary text-primary backdrop-blur-sm transition-all duration-300 cyber-glow-subtle"
+              className="rounded-full w-12 h-12 border-primary/50 bg-secondary/50 hover:bg-secondary text-primary transition-all duration-300"
             >
               <ChevronRight className="w-5 h-5" />
             </Button>

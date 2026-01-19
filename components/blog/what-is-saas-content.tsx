@@ -47,7 +47,7 @@ export function WhatIsSaasContent() {
                 }
               </p>
 
-              <div className="bg-secondary/50 border border-cyber-500/30 p-6 rounded-lg mb-6">
+              <div className="bg-secondary/50 border border-border p-6 rounded-lg mb-6">
                 <h3 className="text-xl font-semibold mb-3 text-primary">
                   {isZh ? '核心特征' : 'Core Characteristics'}
                 </h3>
@@ -84,7 +84,7 @@ export function WhatIsSaasContent() {
               </h2>
 
               <div className="grid md:grid-cols-2 gap-6 mb-8">
-                <div className="bg-secondary/50 p-6 rounded-lg border border-cyber-500/30">
+                <div className="bg-secondary/50 p-6 rounded-lg border border-border">
                   <h3 className="text-xl font-semibold mb-4 text-primary">
                     {isZh ? '收入模式' : 'Revenue Models'}
                   </h3>
@@ -110,7 +110,7 @@ export function WhatIsSaasContent() {
                   </ul>
                 </div>
 
-                <div className="bg-secondary/50 p-6 rounded-lg border border-cyber-500/30">
+                <div className="bg-secondary/50 p-6 rounded-lg border border-border">
                   <h3 className="text-xl font-semibold mb-4 text-primary">
                     {isZh ? '优势特点' : 'Key Advantages'}
                   </h3>
@@ -152,22 +152,22 @@ export function WhatIsSaasContent() {
               </p>
 
               <div className="space-y-6">
-                <div className="bg-secondary/50 p-6 rounded-lg border border-cyber-500/30">
+                <div className="bg-secondary/50 p-6 rounded-lg border border-border">
                   <h3 className="text-xl font-semibold mb-4 text-primary">
                     {isZh ? '前端技术' : 'Frontend Technologies'}
                   </h3>
                   <div className="grid md:grid-cols-3 gap-4">
-                    <div className="text-center p-4 bg-secondary/70 rounded-lg border border-cyber-500/20">
+                    <div className="text-center p-4 bg-secondary/70 rounded-lg border border-border">
                       <div className="text-2xl mb-2">⚛️</div>
                       <div className="font-semibold text-foreground">React/Next.js</div>
                       <div className="text-sm text-muted-foreground">{isZh ? '现代化前端框架' : 'Modern frontend framework'}</div>
                     </div>
-                    <div className="text-center p-4 bg-secondary/70 rounded-lg border border-cyber-500/20">
+                    <div className="text-center p-4 bg-secondary/70 rounded-lg border border-border">
                       <div className="text-2xl mb-2">🎨</div>
                       <div className="font-semibold text-foreground">Tailwind CSS</div>
                       <div className="text-sm text-muted-foreground">{isZh ? '实用优先的CSS框架' : 'Utility-first CSS framework'}</div>
                     </div>
-                    <div className="text-center p-4 bg-secondary/70 rounded-lg border border-cyber-500/20">
+                    <div className="text-center p-4 bg-secondary/70 rounded-lg border border-border">
                       <div className="text-2xl mb-2">📱</div>
                       <div className="font-semibold text-foreground">PWA</div>
                       <div className="text-sm text-muted-foreground">{isZh ? '渐进式Web应用' : 'Progressive Web App'}</div>
@@ -175,22 +175,22 @@ export function WhatIsSaasContent() {
                   </div>
                 </div>
 
-                <div className="bg-secondary/50 p-6 rounded-lg border border-cyber-500/30">
+                <div className="bg-secondary/50 p-6 rounded-lg border border-border">
                   <h3 className="text-xl font-semibold mb-4 text-primary">
                     {isZh ? '后端技术' : 'Backend Technologies'}
                   </h3>
                   <div className="grid md:grid-cols-3 gap-4">
-                    <div className="text-center p-4 bg-secondary/70 rounded-lg border border-cyber-500/20">
+                    <div className="text-center p-4 bg-secondary/70 rounded-lg border border-border">
                       <div className="text-2xl mb-2">🟢</div>
                       <div className="font-semibold text-foreground">Node.js</div>
                       <div className="text-sm text-muted-foreground">{isZh ? '高性能JavaScript运行时' : 'High-performance JavaScript runtime'}</div>
                     </div>
-                    <div className="text-center p-4 bg-secondary/70 rounded-lg border border-cyber-500/20">
+                    <div className="text-center p-4 bg-secondary/70 rounded-lg border border-border">
                       <div className="text-2xl mb-2">🗄️</div>
                       <div className="font-semibold text-foreground">PostgreSQL</div>
                       <div className="text-sm text-muted-foreground">{isZh ? '企业级关系数据库' : 'Enterprise-grade relational database'}</div>
                     </div>
-                    <div className="text-center p-4 bg-secondary/70 rounded-lg border border-cyber-500/20">
+                    <div className="text-center p-4 bg-secondary/70 rounded-lg border border-border">
                       <div className="text-2xl mb-2">🔐</div>
                       <div className="font-semibold text-foreground">Auth</div>
                       <div className="text-sm text-muted-foreground">{isZh ? '身份认证和授权' : 'Authentication and authorization'}</div>
@@ -202,7 +202,7 @@ export function WhatIsSaasContent() {
 
             {/* CTA Section */}
             <section className="mb-12">
-              <div className="bg-primary p-6 rounded-lg text-dark-900 cyber-glow">
+              <div className="bg-primary p-6 rounded-lg text-primary-foreground shadow-md">
                 <h3 className="text-2xl font-semibold mb-4">
                   {isZh ? '体验Get SaaS' : 'Experience Get SaaS'}
                 </h3>
@@ -221,7 +221,7 @@ export function WhatIsSaasContent() {
                   </a>
                   <a
                     href={`/${locale}/#features`}
-                    className="inline-flex items-center px-6 py-3 border border-border text-dark-900 font-semibold rounded-lg hover:bg-background hover:text-primary transition-colors"
+                    className="inline-flex items-center px-6 py-3 border border-border text-foreground font-semibold rounded-lg hover:bg-background hover:text-primary transition-colors"
                   >
                     {isZh ? '了解更多' : 'Learn More'}
                   </a>

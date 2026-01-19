@@ -162,7 +162,7 @@ export function Navbar() {
                 <Button variant="ghost" size="sm" asChild className="text-muted-foreground hover:text-primary hover:bg-secondary transition-all duration-300">
                   <Link href={getLocalizedPath("/auth/signin")}>{t("signIn")}</Link>
                 </Button>
-                <Button className="bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 cyber-glow hover:scale-105 transform" asChild>
+                <Button className="bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300" asChild>
                   <Link href={getLocalizedPath("/auth/signup")}>{t("signUp")}</Link>
                 </Button>
               </div>
@@ -239,7 +239,7 @@ export function Navbar() {
                     <Button variant="ghost" size="sm" className="w-full text-foreground hover:text-primary hover:bg-primary/20" asChild>
                       <Link href={getLocalizedPath("/auth/signin")}>{t("signIn")}</Link>
                     </Button>
-                    <Button className="w-full bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 cyber-glow" asChild>
+                    <Button className="w-full bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300" asChild>
                       <Link href={getLocalizedPath("/auth/signup")}>{t("signUp")}</Link>
                     </Button>
                   </div>

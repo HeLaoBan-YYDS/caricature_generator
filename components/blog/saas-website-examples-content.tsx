@@ -47,7 +47,7 @@ export function SaasWebsiteExamplesContent() {
                 }
               </p>
 
-              <div className="bg-secondary/50 border border-cyber-500/30 p-6 rounded-lg mb-6">
+              <div className="bg-secondary/50 border border-border p-6 rounded-lg mb-6">
                 <h3 className="text-xl font-semibold mb-3 text-primary">
                   {isZh ? '电商功能特性' : 'E-commerce Features'}
                 </h3>
@@ -84,7 +84,7 @@ export function SaasWebsiteExamplesContent() {
               </h2>
 
               <div className="grid md:grid-cols-2 gap-6 mb-8">
-                <div className="bg-secondary/50 p-6 rounded-lg border border-cyber-500/30">
+                <div className="bg-secondary/50 p-6 rounded-lg border border-border">
                   <h3 className="text-xl font-semibold mb-4 text-primary">
                     {isZh ? 'CRM系统' : 'CRM Systems'}
                   </h3>
@@ -110,7 +110,7 @@ export function SaasWebsiteExamplesContent() {
                   </ul>
                 </div>
 
-                <div className="bg-secondary/50 p-6 rounded-lg border border-cyber-500/30">
+                <div className="bg-secondary/50 p-6 rounded-lg border border-border">
                   <h3 className="text-xl font-semibold mb-4 text-primary">
                     {isZh ? 'ERP系统' : 'ERP Systems'}
                   </h3>
@@ -152,22 +152,22 @@ export function SaasWebsiteExamplesContent() {
               </p>
 
               <div className="space-y-6">
-                <div className="bg-secondary/50 p-6 rounded-lg border border-cyber-500/30">
+                <div className="bg-secondary/50 p-6 rounded-lg border border-border">
                   <h3 className="text-xl font-semibold mb-4 text-primary">
                     {isZh ? '核心教育功能' : 'Core Education Features'}
                   </h3>
                   <div className="grid md:grid-cols-3 gap-4">
-                    <div className="text-center p-4 bg-secondary/70 rounded-lg border border-cyber-500/20">
+                    <div className="text-center p-4 bg-secondary/70 rounded-lg border border-border">
                       <div className="text-2xl mb-2">📚</div>
                       <div className="font-semibold text-foreground">{isZh ? '课程管理' : 'Course Management'}</div>
                       <div className="text-sm text-muted-foreground">{isZh ? '完整的课程创建和管理系统' : 'Complete course creation and management system'}</div>
                     </div>
-                    <div className="text-center p-4 bg-secondary/70 rounded-lg border border-cyber-500/20">
+                    <div className="text-center p-4 bg-secondary/70 rounded-lg border border-border">
                       <div className="text-2xl mb-2">👥</div>
                       <div className="font-semibold text-foreground">{isZh ? '学员管理' : 'Student Management'}</div>
                       <div className="text-sm text-muted-foreground">{isZh ? '学员注册、进度跟踪和成绩管理' : 'Student registration, progress tracking and grade management'}</div>
                     </div>
-                    <div className="text-center p-4 bg-secondary/70 rounded-lg border border-cyber-500/20">
+                    <div className="text-center p-4 bg-secondary/70 rounded-lg border border-border">
                       <div className="text-2xl mb-2">💳</div>
                       <div className="font-semibold text-foreground">{isZh ? '订阅计费' : 'Subscription Billing'}</div>
                       <div className="text-sm text-muted-foreground">{isZh ? '灵活的课程定价和订阅模式' : 'Flexible course pricing and subscription models'}</div>
@@ -183,7 +183,7 @@ export function SaasWebsiteExamplesContent() {
                 {isZh ? '4. 项目管理工具' : '4. Project Management Tools'}
               </h2>
 
-              <div className="bg-gradient-to-r from-dark-600/50 to-dark-600/70 p-6 rounded-lg border border-cyber-500/30 mb-6">
+              <div className="bg-secondary/50 p-6 rounded-lg border border-border mb-6">
                 <h3 className="text-xl font-semibold mb-4 text-primary">
                   {isZh ? '团队协作功能' : 'Team Collaboration Features'}
                 </h3>
@@ -228,7 +228,7 @@ export function SaasWebsiteExamplesContent() {
 
             {/* CTA Section */}
             <section className="mb-12">
-              <div className="bg-primary p-6 rounded-lg text-dark-900 cyber-glow">
+              <div className="bg-primary p-6 rounded-lg text-primary-foreground shadow-md">
                 <h3 className="text-2xl font-semibold mb-4">
                   {isZh ? '开始构建您的SaaS产品' : 'Start Building Your SaaS Product'}
                 </h3>
@@ -247,7 +247,7 @@ export function SaasWebsiteExamplesContent() {
                   </a>
                   <a
                     href={`/${locale}/#features`}
-                    className="inline-flex items-center px-6 py-3 border border-border text-dark-900 font-semibold rounded-lg hover:bg-background hover:text-primary transition-colors"
+                    className="inline-flex items-center px-6 py-3 border border-border text-foreground font-semibold rounded-lg hover:bg-background hover:text-primary transition-colors"
                   >
                     {isZh ? '了解更多' : 'Learn More'}
                   </a>

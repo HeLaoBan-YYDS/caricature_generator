@@ -27,7 +27,7 @@ export function OtherPosts() {
 
         <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {/* 第一篇文章 - 音频总结智能体是如何工作的 */}
-          <Card className="group hover:shadow-xl transition-all duration-300 border-0 shadow-lg bg-secondary/90 backdrop-blur-sm hover:bg-secondary/95 cyber-glow-subtle">
+          <Card className="group hover:shadow-xl transition-all duration-300 border-0 shadow-lg bg-card hover:bg-secondary/50">
             <CardHeader className="pb-4">
               <div className="flex items-center justify-between mb-3">
                 <Badge variant="outline" className="border-primary text-primary">
@@ -48,7 +48,7 @@ export function OtherPosts() {
             </CardHeader>
             <CardContent className="pt-0">
               <Link href={`/${locale}/blog/saas-website-examples`} target="_blank" rel="noopener noreferrer">
-                <Button variant="ghost" className="group p-0 text-primary hover:text-primary-foreground hover:bg-primary px-4 py-2 rounded-lg transition-all duration-300 cyber-glow-subtle">
+                <Button variant="ghost" className="group p-0 text-primary hover:text-primary-foreground hover:bg-primary px-4 py-2 rounded-lg transition-all duration-300">
                   {t('readMore')}
                   <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </Button>
@@ -57,7 +57,7 @@ export function OtherPosts() {
           </Card>
 
           {/* 第二篇文章 - ITSAI Agent提供哪些声音AI智能体 */}
-          <Card className="group hover:shadow-xl transition-all duration-300 border-0 shadow-lg bg-secondary/90 backdrop-blur-sm hover:bg-secondary/95 cyber-glow-subtle">
+          <Card className="group hover:shadow-xl transition-all duration-300 border-0 shadow-lg bg-card hover:bg-secondary/50">
             <CardHeader className="pb-4">
               <div className="flex items-center justify-between mb-3">
                 <Badge variant="outline" className="border-primary text-primary">
@@ -78,7 +78,7 @@ export function OtherPosts() {
             </CardHeader>
             <CardContent className="pt-0">
               <Link href={`/${locale}/blog/saas-features`} target="_blank" rel="noopener noreferrer">
-                <Button variant="ghost" className="group p-0 text-primary hover:text-primary-foreground hover:bg-primary px-4 py-2 rounded-lg transition-all duration-300 cyber-glow-subtle">
+                <Button variant="ghost" className="group p-0 text-primary hover:text-primary-foreground hover:bg-primary px-4 py-2 rounded-lg transition-all duration-300">
                   {t('readMore')}
                   <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </Button>
@@ -87,7 +87,7 @@ export function OtherPosts() {
           </Card>
 
           {/* 第三篇文章 - 什么是AI智能体 */}
-          <Card className="group hover:shadow-xl transition-all duration-300 border-0 shadow-lg bg-secondary/90 backdrop-blur-sm hover:bg-secondary/95 cyber-glow-subtle">
+          <Card className="group hover:shadow-xl transition-all duration-300 border-0 shadow-lg bg-card hover:bg-secondary/50">
             <CardHeader className="pb-4">
               <div className="flex items-center justify-between mb-3">
                 <Badge variant="outline" className="border-primary text-primary">
@@ -108,7 +108,7 @@ export function OtherPosts() {
             </CardHeader>
             <CardContent className="pt-0">
               <Link href={`/${locale}/blog/what-is-saas`} target="_blank" rel="noopener noreferrer">
-                <Button variant="ghost" className="group p-0 text-primary hover:text-primary-foreground hover:bg-primary px-4 py-2 rounded-lg transition-all duration-300 cyber-glow-subtle">
+                <Button variant="ghost" className="group p-0 text-primary hover:text-primary-foreground hover:bg-primary px-4 py-2 rounded-lg transition-all duration-300">
                   {t('readMore')}
                   <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </Button>

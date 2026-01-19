@@ -78,7 +78,7 @@ export function ForgotPasswordForm() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-background p-4">
-      <Card className="w-full max-w-md shadow-2xl border-0 bg-secondary/80 backdrop-blur-sm cyber-glow-subtle">
+      <Card className="w-full max-w-md shadow-2xl border-0 bg-card">
         <CardHeader className="text-center space-y-4">
           <div className="mx-auto w-16 h-16 bg-secondary rounded-2xl flex items-center justify-center shadow-lg border border-primary/30">
             <Image
@@ -142,7 +142,7 @@ export function ForgotPasswordForm() {
 
               <Button
                 type="submit"
-                className="w-full bg-primary hover:bg-primary/90 text-primary-foreground transition-all duration-300 cyber-glow"
+                className="w-full bg-primary hover:bg-primary/90 text-primary-foreground transition-all duration-300"
                 disabled={isLoading}
               >
                 {isLoading ? t('sending') : t('send_reset_link')}

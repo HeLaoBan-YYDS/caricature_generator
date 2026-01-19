@@ -337,7 +337,7 @@ export function ProfileInfo() {
       
       case 'points-history':
         return (
-          <Card className="shadow-lg border-0 bg-secondary/80 backdrop-blur-sm cyber-glow-subtle">
+          <Card className="shadow-lg border-0 bg-card">
             <CardHeader>
               <CardTitle className="flex items-center space-x-2 text-foreground">
                 <Coins className="h-5 w-5 text-primary" />
@@ -473,7 +473,7 @@ export function ProfileInfo() {
       
       case 'account-status':
         return (
-          <Card className="shadow-lg border-0 bg-secondary/80 backdrop-blur-sm cyber-glow-subtle">
+          <Card className="shadow-lg border-0 bg-card">
             <CardHeader>
               <CardTitle className="flex items-center space-x-2 text-foreground">
                 <CheckCircle className="h-5 w-5 text-primary" />
@@ -482,7 +482,7 @@ export function ProfileInfo() {
             </CardHeader>
             <CardContent>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                <div className="text-center p-4 bg-primary/20 border border-primary/50 rounded-lg cyber-glow-subtle">
+                <div className="text-center p-4 bg-primary/20 border border-primary/50 rounded-lg">
                   <CheckCircle className="h-8 w-8 text-primary mx-auto mb-2" />
                   <p className="text-sm text-primary font-medium">
                     {t('email_verified')}
@@ -550,7 +550,7 @@ export function ProfileInfo() {
         {/* 左侧边栏 */}
         <div className="lg:col-span-1">
           {/* 个人信息框 */}
-          <Card className="shadow-xl border-0 bg-secondary/80 backdrop-blur-sm mb-6 cyber-glow-subtle">
+          <Card className="shadow-xl border-0 bg-card mb-6">
             <CardContent className="p-6">
               <div className="flex flex-col items-center text-center">
                 <Avatar className="h-16 w-16 ring-3 ring-cyber-500/50 mb-3">
@@ -625,7 +625,7 @@ export function ProfileInfo() {
           </Card>
 
           {/* 分类导航 */}
-          <Card className="shadow-lg border-0 bg-secondary/80 backdrop-blur-sm cyber-glow-subtle">
+          <Card className="shadow-lg border-0 bg-card">
             <CardHeader>
               <CardTitle className="flex items-center space-x-2 text-foreground text-base">
                 <Settings className="h-4 w-4 text-primary" />

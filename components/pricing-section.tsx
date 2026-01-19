@@ -74,13 +74,13 @@ export function PricingSection() {
               className={`relative ${
                 plan.popular
                   ? plan.hasDiscount
-                    ? "border-cyber-500 shadow-xl scale-105 bg-gradient-to-br from-dark-600 to-dark-600 cyber-glow"
-                    : "border-cyber-500 shadow-lg scale-105 cyber-glow-subtle"
-                  : "border-border bg-secondary/50"
+                    ? "border-primary shadow-xl scale-105 bg-card"
+                    : "border-primary shadow-lg scale-105"
+                  : "border-border bg-card"
               }`}
             >
               {plan.popular && (
-                <Badge className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-primary text-primary-foreground cyber-glow">
+                <Badge className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-primary text-primary-foreground shadow-md">
                   {t("recommended")}
                 </Badge>
               )}
@@ -135,7 +135,7 @@ export function PricingSection() {
                   <StripeCheckoutButton
                     priceId={plan.priceId}
                     planType={plan.planType}
-                    className={`w-full ${plan.popular ? "bg-primary text-primary-foreground hover:bg-primary/90 cyber-glow" : ""}`}
+                    className={`w-full ${plan.popular ? "bg-primary text-primary-foreground hover:bg-primary/90" : ""}`}
                     variant={plan.popular ? "default" : "outline"}
                   >
                     {plan.cta}

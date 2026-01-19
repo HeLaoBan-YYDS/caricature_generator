@@ -95,7 +95,7 @@ export function PointsPurchase({ onPointsUpdate }: { onPointsUpdate?: () => void
   }, [])
 
   return (
-    <Card className="shadow-lg border-0 bg-secondary/80 backdrop-blur-sm cyber-glow-subtle">
+    <Card className="shadow-lg border-0 bg-card">
       <CardHeader>
         <CardTitle className="flex items-center space-x-2 text-foreground">
           <Star className="h-5 w-5 text-primary" />
@@ -144,12 +144,12 @@ export function PointsPurchase({ onPointsUpdate }: { onPointsUpdate?: () => void
                   key={pkg.id}
                   className={`relative p-6 rounded-lg border-2 transition-all ${
                     pkg.popular
-                      ? 'border-primary bg-secondary/80 pt-8 cyber-glow-subtle'
+                      ? 'border-primary bg-secondary/80 pt-8'
                       : 'border-border bg-secondary/70 hover:border-primary/50 hover:bg-secondary/80'
                   }`}
                 >
                   {pkg.popular && (
-                    <Badge className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-primary text-primary-foreground px-3 py-1 text-xs font-medium shadow-md cyber-glow">
+                    <Badge className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-primary text-primary-foreground px-3 py-1 text-xs font-medium shadow-md">
                       {t('recommended')}
                     </Badge>
                   )}
@@ -166,7 +166,7 @@ export function PointsPurchase({ onPointsUpdate }: { onPointsUpdate?: () => void
                       ${pkg.price}
                     </div>
                     <Button
-                      className={`w-full ${pkg.popular ? 'bg-primary text-primary-foreground hover:bg-primary/90 cyber-glow' : 'border-primary text-primary hover:bg-primary hover:text-primary-foreground'}`}
+                      className={`w-full ${pkg.popular ? 'bg-primary text-primary-foreground hover:bg-primary/90' : 'border-primary text-primary hover:bg-primary hover:text-primary-foreground'}`}
                       variant={pkg.popular ? 'default' : 'outline'}
                       onClick={() => handlePurchase(pkg)}
                       disabled={loading === pkg.id}

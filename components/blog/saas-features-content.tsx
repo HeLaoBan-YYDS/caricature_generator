@@ -47,7 +47,7 @@ export function SaasFeaturesContent() {
                 }
               </p>
 
-              <div className="bg-secondary/50 border border-cyber-500/30 p-6 rounded-lg mb-6">
+              <div className="bg-secondary/50 border border-border p-6 rounded-lg mb-6">
                 <h3 className="text-xl font-semibold mb-3 text-primary">
                   {isZh ? '认证功能特性' : 'Authentication Features'}
                 </h3>
@@ -84,7 +84,7 @@ export function SaasFeaturesContent() {
               </h2>
 
               <div className="grid md:grid-cols-2 gap-6 mb-8">
-                <div className="bg-secondary/50 p-6 rounded-lg border border-cyber-500/30">
+                <div className="bg-secondary/50 p-6 rounded-lg border border-border">
                   <h3 className="text-xl font-semibold mb-4 text-primary">
                     {isZh ? '支付功能' : 'Payment Features'}
                   </h3>
@@ -110,7 +110,7 @@ export function SaasFeaturesContent() {
                   </ul>
                 </div>
 
-                <div className="bg-secondary/50 p-6 rounded-lg border border-cyber-500/30">
+                <div className="bg-secondary/50 p-6 rounded-lg border border-border">
                   <h3 className="text-xl font-semibold mb-4 text-primary">
                     {isZh ? '安全特性' : 'Security Features'}
                   </h3>
@@ -152,22 +152,22 @@ export function SaasFeaturesContent() {
               </p>
 
               <div className="space-y-6">
-                <div className="bg-secondary/50 p-6 rounded-lg border border-cyber-500/30">
+                <div className="bg-secondary/50 p-6 rounded-lg border border-border">
                   <h3 className="text-xl font-semibold mb-4 text-primary">
                     {isZh ? '国际化功能' : 'Internationalization Features'}
                   </h3>
                   <div className="grid md:grid-cols-3 gap-4">
-                    <div className="text-center p-4 bg-secondary/70 rounded-lg border border-cyber-500/20">
+                    <div className="text-center p-4 bg-secondary/70 rounded-lg border border-border">
                       <div className="text-2xl mb-2">🌍</div>
                       <div className="font-semibold text-foreground">{isZh ? '多语言切换' : 'Language Switching'}</div>
                       <div className="text-sm text-muted-foreground">{isZh ? '支持中英文等多种语言' : 'Support Chinese, English and more languages'}</div>
                     </div>
-                    <div className="text-center p-4 bg-secondary/70 rounded-lg border border-cyber-500/20">
+                    <div className="text-center p-4 bg-secondary/70 rounded-lg border border-border">
                       <div className="text-2xl mb-2">🔄</div>
                       <div className="font-semibold text-foreground">{isZh ? '动态加载' : 'Dynamic Loading'}</div>
                       <div className="text-sm text-muted-foreground">{isZh ? '按需加载语言包，优化性能' : 'Load language packs on demand, optimize performance'}</div>
                     </div>
-                    <div className="text-center p-4 bg-secondary/70 rounded-lg border border-cyber-500/20">
+                    <div className="text-center p-4 bg-secondary/70 rounded-lg border border-border">
                       <div className="text-2xl mb-2">📱</div>
                       <div className="font-semibold text-foreground">{isZh ? 'SEO友好' : 'SEO Friendly'}</div>
                       <div className="text-sm text-muted-foreground">{isZh ? '多语言URL和元数据优化' : 'Multi-language URL and metadata optimization'}</div>
@@ -183,7 +183,7 @@ export function SaasFeaturesContent() {
                 {isZh ? '4. 完整的SEO优化' : '4. Complete SEO Optimization'}
               </h2>
 
-              <div className="bg-gradient-to-r from-dark-600/50 to-dark-600/70 p-6 rounded-lg border border-cyber-500/30 mb-6">
+              <div className="bg-secondary/50 p-6 rounded-lg border border-border mb-6">
                 <h3 className="text-xl font-semibold mb-4 text-primary">
                   {isZh ? 'SEO功能特性' : 'SEO Features'}
                 </h3>
@@ -233,7 +233,7 @@ export function SaasFeaturesContent() {
               </h2>
 
               <div className="grid md:grid-cols-2 gap-6 mb-8">
-                <div className="bg-secondary/50 p-6 rounded-lg border border-cyber-500/30">
+                <div className="bg-secondary/50 p-6 rounded-lg border border-border">
                   <h3 className="text-xl font-semibold mb-4 text-primary">
                     {isZh ? '前端技术' : 'Frontend Technologies'}
                   </h3>
@@ -262,7 +262,7 @@ export function SaasFeaturesContent() {
                   </div>
                 </div>
 
-                <div className="bg-secondary/50 p-6 rounded-lg border border-cyber-500/30">
+                <div className="bg-secondary/50 p-6 rounded-lg border border-border">
                   <h3 className="text-xl font-semibold mb-4 text-primary">
                     {isZh ? '后端与数据' : 'Backend & Data'}
                   </h3>
@@ -295,7 +295,7 @@ export function SaasFeaturesContent() {
 
             {/* CTA Section */}
             <section className="mb-12">
-              <div className="bg-primary p-6 rounded-lg text-dark-900 cyber-glow">
+              <div className="bg-primary p-6 rounded-lg text-primary-foreground shadow-md">
                 <h3 className="text-2xl font-semibold mb-4">
                   {isZh ? '立即体验Get SaaS' : 'Experience Get SaaS Now'}
                 </h3>
@@ -314,7 +314,7 @@ export function SaasFeaturesContent() {
                   </a>
                   <a
                     href={`/${locale}/#features`}
-                    className="inline-flex items-center px-6 py-3 border border-border text-dark-900 font-semibold rounded-lg hover:bg-background hover:text-primary transition-colors"
+                    className="inline-flex items-center px-6 py-3 border border-border text-foreground font-semibold rounded-lg hover:bg-background hover:text-primary transition-colors"
                   >
                     {isZh ? '了解更多' : 'Learn More'}
                   </a>

@@ -10,7 +10,7 @@ export function ContactPost() {
 
   return (
     <article className="mb-16">
-      <Card className="overflow-hidden border-0 shadow-lg bg-secondary/90 cyber-glow-subtle">
+      <Card className="overflow-hidden border-0 shadow-lg bg-card">
         <div className="bg-primary p-8">
           <div className="flex items-center gap-4 mb-6">
             <div className="flex items-center text-sm text-primary-foreground/90">
@@ -41,7 +41,7 @@ export function ContactPost() {
               <div className="grid md:grid-cols-3 gap-8 mb-8">
                 {/* Twitter */}
                 <div className="text-center p-6 rounded-lg bg-secondary/50 border border-primary/30 hover:shadow-md transition-shadow">
-                  <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4 cyber-glow">
+                  <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4 shadow-md">
                     <Twitter className="w-8 h-8 text-primary-foreground" />
                   </div>
                   <h4 className="font-semibold mb-2 text-dark-100">{t('contactMethods.twitter.title')}</h4>
@@ -59,7 +59,7 @@ export function ContactPost() {
 
                 {/* Email */}
                 <div className="text-center p-6 rounded-lg bg-secondary/50 border border-primary/30 hover:shadow-md transition-shadow">
-                  <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4 cyber-glow">
+                  <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4 shadow-md">
                     <Mail className="w-8 h-8 text-primary-foreground" />
                   </div>
                   <h4 className="font-semibold mb-2 text-dark-100">{t('contactMethods.email.title')}</h4>
@@ -76,7 +76,7 @@ export function ContactPost() {
 
                 {/* WeChat */}
                 <div className="text-center p-6 rounded-lg bg-secondary/50 border border-primary/30 hover:shadow-md transition-shadow">
-                  <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4 cyber-glow">
+                  <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4 shadow-md">
                     <MessageCircle className="w-8 h-8 text-primary-foreground" />
                   </div>
                   <h4 className="font-semibold mb-2 text-dark-100">{t('contactMethods.wechat.title')}</h4>

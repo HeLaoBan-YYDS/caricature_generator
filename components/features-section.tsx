@@ -51,8 +51,8 @@ export function FeaturesSection() {
                   key={index}
                   className={`flex items-start gap-6 p-6 rounded-2xl transition-all duration-500 cursor-pointer ${
                     activeFeature === index
-                      ? "bg-secondary border-2 border-primary cyber-glow-subtle"
-                      : "bg-secondary/50 border border-dark-600/50 hover:bg-secondary/70"
+                      ? "bg-secondary border-2 border-primary shadow-md"
+                      : "bg-secondary/50 border border-border hover:bg-secondary/70"
                   }`}
                   onClick={() => setActiveFeature(index)}
                 >
@@ -60,7 +60,7 @@ export function FeaturesSection() {
                   <div
                     className={`flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center transition-all duration-300 ${
                       activeFeature === index
-                        ? "bg-primary text-primary-foreground cyber-glow"
+                        ? "bg-primary text-primary-foreground shadow-md"
                         : index < activeFeature
                           ? "bg-primary/90 text-primary-foreground"
                           : "bg-secondary text-muted-foreground"
@@ -98,7 +98,7 @@ export function FeaturesSection() {
 
             {/* 右侧视觉展示 */}
             <div className="relative">
-              <div className="relative rounded-2xl overflow-hidden cyber-glow-subtle bg-secondary/50 border border-primary/50 backdrop-blur-sm">
+              <div className="relative rounded-2xl overflow-hidden bg-secondary/50 border border-border shadow-lg">
                 {/* 装饰性背景 */}
                 <div className="absolute inset-0 bg-secondary/20" />
 
@@ -119,14 +119,14 @@ export function FeaturesSection() {
 
                       {/* 中央图标展示 */}
                       <div className="absolute inset-0 flex items-center justify-center">
-                        <div className="w-20 h-20 bg-primary/90 backdrop-blur-sm rounded-full flex items-center justify-center shadow-lg cyber-glow">
+                        <div className="w-20 h-20 bg-primary/90 rounded-full flex items-center justify-center shadow-lg">
                           <IconComponent className="w-10 h-10 text-primary-foreground" />
                         </div>
                       </div>
                     </div>
 
                     {/* 浮动标签 */}
-                    <div className="absolute -top-4 -right-4 bg-secondary/90 backdrop-blur-sm rounded-lg p-3 cyber-glow-subtle border border-primary/50">
+                    <div className="absolute -top-4 -right-4 bg-secondary/90 rounded-lg p-3 border border-border shadow-md">
                       <div className="flex items-center gap-2">
                         <div className="w-2 h-2 bg-primary rounded-full animate-ping" />
                         <span className="text-xs font-medium text-foreground">
@@ -136,9 +136,9 @@ export function FeaturesSection() {
                     </div>
 
                     {/* 底部信息卡片 */}
-                    <div className="absolute -bottom-4 -left-4 bg-secondary/90 backdrop-blur-sm rounded-lg p-4 cyber-glow-subtle border border-primary/50">
+                    <div className="absolute -bottom-4 -left-4 bg-secondary/90 rounded-lg p-4 border border-border shadow-md">
                       <div className="flex items-center gap-3">
-                        <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center cyber-glow">
+                        <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center shadow-md">
                           <IconComponent className="w-5 h-5 text-primary-foreground" />
                         </div>
                         <div>
@@ -158,7 +158,7 @@ export function FeaturesSection() {
                     key={index}
                     onClick={() => setActiveFeature(index)}
                     className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                      activeFeature === index ? "bg-primary cyber-glow scale-125" : "bg-secondary hover:bg-primary/50"
+                      activeFeature === index ? "bg-primary scale-125 shadow-md" : "bg-secondary hover:bg-primary/50"
                     }`}
                   />
                 ))}

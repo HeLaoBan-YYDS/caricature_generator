@@ -197,7 +197,7 @@ export function SubscriptionInfo() {
 
   if (loading) {
     return (
-      <Card className="shadow-lg border-0 bg-secondary/80 backdrop-blur-sm cyber-glow-subtle">
+      <Card className="shadow-lg border-0 bg-card">
         <CardHeader>
           <CardTitle className="flex items-center space-x-2 text-foreground">
             <CreditCard className="h-5 w-5 text-primary" />
@@ -214,7 +214,7 @@ export function SubscriptionInfo() {
   }
 
   return (
-    <Card className="shadow-lg border-0 bg-secondary/80 backdrop-blur-sm cyber-glow-subtle">
+    <Card className="shadow-lg border-0 bg-card">
       <CardHeader>
         <div className="flex items-center justify-between">
           <CardTitle className="flex items-center space-x-2 text-foreground">
@@ -237,7 +237,7 @@ export function SubscriptionInfo() {
       </CardHeader>
       <CardContent className="space-y-6">
         {/* 当前订阅状态 */}
-        <div className="flex items-center justify-between p-4 bg-secondary/50 border border-cyber-500/30 rounded-lg">
+        <div className="flex items-center justify-between p-4 bg-secondary/50 border border-border rounded-lg">
           <div className="flex items-center space-x-3">
             {getPlanIcon(subscriptionData?.subscriptionPlan || null)}
             <div>
@@ -260,7 +260,7 @@ export function SubscriptionInfo() {
             <div className="grid grid-cols-1 gap-4">
               {/* 到期时间 */}
               {subscriptionData?.subscriptionCurrentPeriodEnd && (
-                <div className="p-4 border border-cyber-500/30 bg-secondary/30 rounded-lg">
+                <div className="p-4 border border-border bg-secondary/30 rounded-lg">
                   <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-2">
                       <Calendar className="h-4 w-4 text-primary" />

@@ -89,12 +89,7 @@ export function Footer() {
 
   return (
     <footer className="relative bg-background border-t border-border">
-      {/* 背景装饰 */}
-      <div className="absolute inset-0 bg-background/50" />
-      <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
-      <div className="absolute bottom-0 left-0 w-80 h-80 bg-secondary/5 rounded-full blur-3xl" />
-      
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 relative z-10">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Company Info */}
           <div className="space-y-8">
@@ -184,7 +179,7 @@ export function Footer() {
 
               <Button
                 type="submit"
-                className="w-full bg-primary hover:bg-primary/90 text-primary-foreground border-0 transition-all duration-300 transform hover:scale-105 cyber-glow"
+                className="w-full bg-primary hover:bg-primary/90 text-primary-foreground border-0 transition-all duration-300"
                 disabled={isLoading || isSubscribed}
               >
                 {isLoading ? (

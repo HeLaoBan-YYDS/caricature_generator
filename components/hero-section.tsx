@@ -23,7 +23,7 @@ export function HeroSection() {
           <div className="flex justify-center mb-6">
             <Badge
               variant="outline"
-              className="px-4 py-2 text-sm font-medium bg-secondary border-primary text-primary cyber-glow-subtle"
+              className="px-4 py-2 text-sm font-medium bg-secondary border-primary text-primary"
             >
               <Sparkles className="w-4 h-4 mr-2" />
               {t("badge")}
@@ -63,7 +63,7 @@ export function HeroSection() {
             ].map((item, index) => (
               <div
                 key={index}
-                className="flex items-center gap-2 px-4 py-2 bg-secondary/80 rounded-full border border-secondary/50 hover:border-primary/50 transition-colors cyber-glow-subtle"
+                className="flex items-center gap-2 px-4 py-2 bg-secondary/80 rounded-full border border-secondary/50 hover:border-primary/50 transition-colors"
               >
                 <item.icon className="w-4 h-4 text-primary" />
                 <span className="text-sm font-medium text-foreground">{item.text}</span>

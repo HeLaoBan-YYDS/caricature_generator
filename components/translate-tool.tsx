@@ -107,7 +107,7 @@ export function TranslateTool() {
   }
 
   return (
-    <Card className="w-full border-primary/30 bg-background/95 backdrop-blur">
+    <Card className="w-full border-border bg-background">
       <CardHeader className="pb-4">
         <CardTitle className="flex items-center gap-2 text-xl">
           <Languages className="h-5 w-5 text-primary" />
@@ -194,7 +194,7 @@ export function TranslateTool() {
 
         {/* 结果显示 */}
         {result && (
-          <div className="rounded-md border border-primary/30 bg-secondary/50 p-4">
+          <div className="rounded-md border border-border bg-secondary/50 p-4">
             <div className="text-sm text-muted-foreground mb-2">翻译结果：</div>
             <div className="text-base text-foreground whitespace-pre-wrap">{result}</div>
           </div>
