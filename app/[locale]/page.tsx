@@ -39,7 +39,6 @@ export default function ChinesePage() {
         </div>
         <HeroSection />
         <FeaturesSection />
-        <PricingSection />
         <Testimonials />
         <FAQSection />
         <BlogSection />

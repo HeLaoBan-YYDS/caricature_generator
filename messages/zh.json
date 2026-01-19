@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "title": "TranslateGemma - 不仅是翻译，更是语境的重塑 | 谷歌开源AI翻译模型",
+    "title": "TranslateGemma - 在线翻译工具",
     "description": "不再忍受机翻味。利用谷歌 TranslateGemma，在任何设备上实现母语级的语境翻译。基于最新的 Gemma 3 架构，提供具备智能密度的翻译引擎，支持55+语言，支持离线运行和云端部署。",
     "terms": {
       "title": "服务条款 - TranslateGemma",
@@ -39,7 +39,7 @@
     }
   },
   "hero": {
-    "title": "不再忍受机翻味。\n利用谷歌 TranslateGemma，在任何设备上实现母语级的语境翻译。",
+    "title": "TranslateGemma 在线翻译工具",
     "description": "基于最新的 Gemma 3 架构，我们提供具备智能密度的翻译引擎。无论是在移动端离线运行 4B 模型，还是在云端部署 27B 旗舰版本，TranslateGemma 都能精准捕捉俚语、口语与商业语境中的细微差别。",
     "badge": "🚀 开源多语言翻译解决方案",
     "features": {
