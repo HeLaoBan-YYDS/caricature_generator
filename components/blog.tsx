@@ -37,11 +37,10 @@ export function Blog() {
                   {t('post1.date')}
                 </span>
               </div>
-              <Link href={`/${locale}/blog/saas-website-examples`} target="_blank" rel="noopener noreferrer" className="block">
-                <CardTitle className="text-lg group-hover:text-primary transition-colors duration-300 cursor-pointer hover:text-primary line-clamp-2 text-foreground">
+              <CardTitle className="text-lg group-hover:text-primary transition-colors duration-300 cursor-pointer hover:text-primary line-clamp-2 text-foreground">
                   {t('post1.title')}
-                </CardTitle>
-              </Link>
+              </CardTitle>
+
               <CardDescription className="text-muted-foreground leading-relaxed mt-3 text-sm line-clamp-3">
                 {t('post1.excerpt')}
               </CardDescription>
@@ -59,11 +58,10 @@ export function Blog() {
                   {t('post2.date')}
                 </span>
               </div>
-              <Link href={`/${locale}/blog/saas-features`} target="_blank" rel="noopener noreferrer" className="block">
-                <CardTitle className="text-lg group-hover:text-primary transition-colors duration-300 cursor-pointer hover:text-primary line-clamp-2 text-foreground">
+              <CardTitle className="text-lg group-hover:text-primary transition-colors duration-300 cursor-pointer hover:text-primary line-clamp-2 text-foreground">
                   {t('post2.title')}
-                </CardTitle>
-              </Link>
+              </CardTitle>
+
               <CardDescription className="text-muted-foreground leading-relaxed mt-3 text-sm line-clamp-3">
                 {t('post2.excerpt')}
               </CardDescription>
@@ -82,6 +80,9 @@ export function Blog() {
                   {t('post3.date')}
                 </span>
               </div>
+              <CardTitle className="text-lg group-hover:text-primary transition-colors duration-300 cursor-pointer hover:text-primary line-clamp-2 text-foreground">
+                {t('post3.title')}
+              </CardTitle>
               <CardDescription className="text-muted-foreground leading-relaxed mt-3 text-sm line-clamp-3">
                 {t('post3.excerpt')}
               </CardDescription>
@@ -91,4 +92,4 @@ export function Blog() {
       </div>
     </section>
   )
-} 
+}

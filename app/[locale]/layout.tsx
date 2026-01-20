@@ -31,11 +31,11 @@ export async function generateMetadata({
     },
     description: t('description'),
     keywords: locale === 'zh'
-      ? 'SaaS模版,出海SaaS,Next.js模版,用户认证,支付系统,多语言支持,SEO优化,现代化SaaS,全球化部署,企业级SaaS'
-      : 'SaaS Template,Global SaaS,Next.js Template,User Authentication,Payment System,Multi-language Support,SEO Optimization,Modern SaaS,Global Deployment,Enterprise SaaS',
-    authors: [{ name: 'Get SaaS Team' }],
-    creator: 'Get SaaS',
-    publisher: 'Get SaaS',
+      ? ''
+      : '',
+    authors: [{ name: 'Remi' }],
+    creator: 'Remi',
+    publisher: 'Remi',
     formatDetection: {
       email: false,
       address: false,
@@ -114,7 +114,7 @@ export default async function LocaleLayout({
 }) {
   // 在Next.js 15中，params需要被await
   const { locale } = await params
-  
+
   // 验证locale是否有效
   if (!locales.includes(locale)) {
     notFound()

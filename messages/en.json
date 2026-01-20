@@ -1,105 +1,130 @@
 {
   "metadata": {
-    "title": "Get SaaS - Modern SaaS Template Designed for Global Markets",
-    "description": "Get SaaS is a modern SaaS template designed for global markets, featuring complete user authentication, payment systems, multi-language support, and SEO optimization. Built with Next.js to help developers launch SaaS products quickly.",
+    "title": "TranslateGemma - Online Translation Tool",
+    "description": "No more tolerating mechanical translation. With Google TranslateGemma, achieve native-level contextual translation on any device. Based on the latest Gemma 3 architecture, it offers an intelligent density translation engine supporting 55+ languages, with offline operation and cloud deployment capabilities.",
     "terms": {
-      "title": "Terms of Service - Get SaaS",
-      "description": "View Get SaaS's Terms of Service for template usage, understanding usage rules, license agreement and user rights and responsibilities."
+      "title": "Terms of Service - TranslateGemma",
+      "description": "View the terms of use for TranslateGemma AI translation services, including service usage rules, license agreements, and user rights and responsibilities"
     },
     "privacy": {
-      "title": "Privacy Policy - Get SaaS",
-      "description": "Learn how Get SaaS handles user data and privacy protection to ensure your personal information security."
+      "title": "Privacy Policy - TranslateGemma",
+      "description": "Learn how TranslateGemma handles user data and protects privacy to ensure the security of your translated content"
     },
     "cookies": {
-      "title": "Cookie Policy - Get SaaS",
-      "description": "Learn how Get SaaS uses cookies and related technologies to optimize user experience and website performance."
+      "title": "Cookie Policy - TranslateGemma",
+      "description": "Learn how TranslateGemma uses Cookies and related technologies to optimize user experience and website performance"
     }
   },
   "demoBanner": {
-    "prefix": "This is a",
-    "productName": "Get SaaS",
-    "suffix": "demo site. After exploring all features,",
-    "cta": "Purchase Full Version"
+    "prefix": "This is the",
+    "productName": "TranslateGemma",
+    "suffix": "demo site. After experiencing the full features,",
+    "cta": "Try it for free now"
   },
   "navbar": {
     "home": "Home",
     "features": "Features",
-    "pricing": "Pricing",
+    "pricing": "Free to Use",
     "blog": "Tech Blog",
-    "signUp": "Sign Up",
+    "signUp": "Sign Up Now",
     "signIn": "Sign In",
     "profile": "Profile",
     "accountSettings": "Account Settings",
-    "signOut": "Sign Out"
-  },
-  "hero": {
-    "title": "Modern SaaS Template for Global Markets\nLaunch Your SaaS Product Worldwide",
-    "description": "Get SaaS features complete user authentication, payment systems, multi-language support, and SEO optimization. Built with Next.js and modern tech stack, focus on your business logic and launch globally fast.",
-    "badge": "🚀 Modern SaaS Solution",
-    "features": {
-      "readyToUse": "Ready to Use",
-      "multiScenario": "Global Support",
-      "professionalOutput": "Enterprise Architecture"
+    "signOut": "Sign Out",
+    "language": {
+      "zh": "Chinese",
+      "zhShort": "ZH",
+      "en": "English",
+      "enShort": "EN"
     }
   },
-  "agents": {
-    "title": "Tailored AI Agent Services for Different Scenarios",
-    "contentSummaryAgent": {
-      "title": "Audio Content Summary Agent",
-      "description": "Automatically recognizes timestamped audio content and generates structured summaries using advanced reasoning models, quickly extracting key points and essential information."
-    },
-    "podcastAgent": {
-      "title": "AI Podcast Agent",
-      "description": "Professional podcast production agent that automatically generates scripts, hosts conversations, and features human-like voice synthesis to help you create high-quality podcast shows effortlessly."
-    },
-    "voiceAgent": {
-      "title": "AI Voice Agent",
-      "description": "Intelligent voice-over service that generates professional voice-overs comparable to humans from text input. Multiple voice options, rich emotions, perfectly suited for all types of content."
-    },
-    "videoAgent": {
-      "title": "AI Video Agent",
-      "description": "One-stop video production agent, fully automated from script to finished video. Combines AI-generated content, voice-overs, and footage to quickly produce professional short videos."
-    },
-    "learnMore": "Learn More"
+  "hero": {
+    "title": "TranslateGemma Online Translation Tool",
+    "description": "Based on the latest Gemma 3 architecture, we provide an intelligent density translation engine. Whether running the 4B model offline on mobile devices or deploying the 27B flagship version on the cloud, TranslateGemma accurately captures subtle differences in slang, spoken language, and business contexts.",
+    "badge": "🚀 Open Source Multilingual Translation Solution",
+    "features": {
+      "readyToUse": "No Credit Card Required",
+      "multiScenario": "Privacy & Security Assurance",
+      "professionalOutput": "Supports 55+ Languages"
+    }
   },
   "features": {
-    "title": "Modern SaaS Template, Complete Solution for Global Products",
+    "title": "Why Choose TranslateGemma?",
     "liveGeneration": "Quick Deployment",
     "contentSummaryAgent": {
-      "title": "User Authentication System",
-      "description": "Integrated complete user registration, login, password reset functions, supports multiple authentication methods, ensuring user data security."
+      "title": "Ultimate Intelligent Density",
+      "description": "The 4B model is optimized for mobile devices, and the 12B model runs smoothly on consumer-grade laptops with a 2x+ improvement in response speed. Native multimodality: directly extract and translate text from images (such as menus, notices) without additional OCR plugins, maintaining visual context consistency."
     },
     "podcastAgent": {
-      "title": "Payment System Integration",
-      "description": "Built-in Stripe payment system, supports subscription billing, one-time payments, invoice management, and enterprise-grade security features."
+      "title": "Elegant Failure Logic",
+      "description": "Even when processing low-resource languages (such as Thai, Vietnamese), it can reduce hallucinations through Reinforcement Learning (RL) and generate natural expressions. Scenario-based mode injection: freely switch between spoken and official document modes based on specific Chat Template guidance, eliminating misinterpretation."
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "categories": {
+      "usage": "Usage Related",
+      "pricing": "Pricing Plans"
+    },
+    "usage": {
+      "howToStart": {
+        "question": "Can TranslateGemma really run offline?",
+        "answer": "Yes. The 4B and 12B models are designed specifically for personal computing devices, and you can run them in a completely offline environment using Ollama or local applications."
+      },
+      "voiceQuality": {
+        "question": "Is its translation quality really better than Google Translate?",
+        "answer": "In professional benchmark tests such as WMT24++, TranslateGemma, which has undergone two-stage fine-tuning, performs better in contextual naturalness and fidelity, especially suitable for processing unstructured and informal text."
+      },
+      "contentOwnership": {
+        "question": "How to integrate it into my existing workflow?",
+        "answer": "We provide a standard OpenAI-compatible interface and support the apply_chat_template system, allowing you to integrate TranslateGemma into your SaaS products at extremely low cost."
+      },
+      "dataPrivacy": {
+        "question": "Is my translation data secure?",
+        "answer": "Yes, TranslateGemma values data security. It supports full Local Inference, ensuring that business secrets never leave your device and you have complete control over your data assets. When used online, translation data is transmitted encrypted, and all user data is only used for translation services and will not be disclosed to third parties."
+      }
+    },
+    "pricing": {
+      "pointsExpiry": {
+        "question": "Is technical support provided after purchase?",
+        "answer": "Yes. The Pro version includes priority technical support, and the Enterprise version offers 7×24-hour technical support. This includes installation guidance, function consultation, problem resolution, etc. Basic version users can get support through the community."
+      },
+      "upgradeAnytime": {
+        "question": "Can I upgrade my TranslateGemma plan at any time?",
+        "answer": "Absolutely! You can upgrade to a higher-tier plan at any time. After upgrading, you will immediately get new features and a longer technical support period, and your purchased license remains valid."
+      },
+      "enterpriseFeatures": {
+        "question": "What special features does the Enterprise version of TranslateGemma include?",
+        "answer": "The Enterprise version provides customized development services for the 27B high-precision model, private deployment support, 7×24-hour technical support, team training and consulting, as well as custom industry corpus fine-tuning services, fully tailored solutions according to your business needs."
+      }
     }
   },
   "pricing": {
-    "title": "Choose the SaaS Template Plan That's Right for You",
+    "title": "Transparent Pricing",
     "recommended": "Recommended",
     "free": {
-      "name": "Open Source",
-      "price": "$0",
-      "description": "Perfect for individual developers and small projects",
+      "name": "Basic (Personal)",
+      "price": "$0 / month",
+      "description": "Access to 4B/12B local models, 10k characters free daily quota, basic community support",
       "features": {
-        "template": "Complete SaaS template source code",
-        "auth": "Basic user authentication system",
-        "support": "Community technical support"
+        "template": "Access to 4B/12B local models",
+        "auth": "10k characters free daily quota",
+        "support": "Basic community support"
       },
-      "cta": "Download Free"
+      "cta": "Download Now"
     },
     "pro": {
-      "name": "Professional",
-      "price": "$49",
+      "name": "Professional (Pro)",
+      "price": "$19 / month",
       "originalPrice": "$99",
       "discountPercent": "50",
       "savings": "$50",
-      "discountBadge": "Limited Time 50% OFF",
-      "description": "Ideal for startups and SMEs, includes advanced features",
+      "discountBadge": "Limited Time 50% Off",
+      "description": "Access to 27B flagship cloud API, unlimited translation requests, priority technical support",
       "features": {
-        "template": "Complete SaaS template + advanced features",
-        "payment": "Stripe payment integration",
-        "support": "1-year technical support"
+        "template": "Access to 27B flagship cloud API",
+        "payment": "Unlimited translation requests",
+        "support": "Priority technical support"
       },
       "cta": "Buy Now"
     },
@@ -114,157 +139,123 @@
       "price": "Contact Us",
       "description": "For large enterprises, provides customized services",
       "features": {
-        "custom": "Customized development services",
-        "deployment": "Private deployment support",
-        "support": "7×24 technical support",
-        "training": "Team training and consulting"
+        "custom": "Private cloud image deployment",
+        "deployment": "Custom industry corpus fine-tuning",
+        "support": "SLA service level agreement guarantee",
+        "training": "7×24-hour technical support"
       },
-      "cta": "Contact Sales"
-    }
-  },
-  "faq": {
-    "title": "Frequently Asked Questions About Get SaaS Template",
-    "categories": {
-      "usage": "Usage",
-      "pricing": "Pricing"
-    },
-    "usage": {
-      "howToStart": {
-        "question": "How do I get started with Get SaaS template?",
-        "answer": "Very simple! After purchasing the template, you'll get complete source code and documentation. Follow our setup guide to configure the database, environment variables, and deploy to your preferred platform. No complex configuration required, ready to use immediately."
-      },
-      "voiceQuality": {
-        "question": "What technologies does Get SaaS template use?",
-        "answer": "Get SaaS is built with modern technology stack: Next.js 14, TypeScript, Tailwind CSS, PostgreSQL database, NextAuth.js authentication, Stripe payment system, and next-intl for internationalization. All technologies are industry-leading and production-ready."
-      },
-      "contentOwnership": {
-        "question": "Can I use Get SaaS template for commercial projects?",
-        "answer": "Absolutely! After purchasing Get SaaS template, you have full commercial usage rights. You can use it to build and sell SaaS products, modify the code, and even resell the final products without any restrictions."
-      },
-      "dataPrivacy": {
-        "question": "Does Get SaaS template include data security features?",
-        "answer": "Yes, Get SaaS includes comprehensive security features: encrypted user authentication, secure payment processing, data validation, CSRF protection, and follows security best practices. All user data is properly protected."
-      }
-    },
-    "pricing": {
-      "pointsExpiry": {
-        "question": "How long is the Get SaaS template license valid?",
-        "answer": "Get SaaS template license is permanent. Once purchased, you can use it indefinitely, including all future updates and improvements. No recurring fees or subscription required."
-      },
-      "upgradeAnytime": {
-        "question": "Can I upgrade my SaaS template plan anytime?",
-        "answer": "Absolutely! You can upgrade to a higher version of the SaaS template anytime. After upgrading, you'll immediately get new features and extended technical support, while your existing license remains valid."
-      },
-      "enterpriseFeatures": {
-        "question": "What special features does Enterprise SaaS template include?",
-        "answer": "Enterprise version provides custom development services, private deployment support, 24/7 technical support, team training and consulting, plus dedicated customer success manager services. Completely tailored solutions according to your business needs."
-      }
+      "cta": "Book a Demo"
     }
   },
   "footer": {
-    "description": "Modern SaaS template designed for global markets, featuring complete user authentication, payment systems, multi-language support, helping you quickly launch global SaaS products.",
+    "description": "Ready to experience contextual translation? Join 10,000+ developers and cross-border sellers in their choice. Based on Google Gemma 3 architecture, TranslateGemma supports 55+ languages, offering offline operation and cloud deployment to facilitate barrier-free cross-language communication.",
     "services": {
       "title": "Services",
       "features": "Features",
-      "pricing": "Pricing",
-      "blog": "Blog"
+      "pricing": "Pricing Plans",
+      "blog": "Tech Blog"
     },
     "product": {
-      "title": "SaaS Template",
-      "template": "Template Download",
+      "title": "Product",
+      "template": "Model Download",
       "features": "Features",
-      "pricing": "Pricing"
+      "pricing": "Pricing Plans"
     },
     "company": {
       "title": "Company",
       "about": "About Us",
-      "careers": "Careers",
+      "careers": "Join Us",
       "blog": "Blog"
     },
     "newsletter": {
-      "title": "Newsletter",
-      "description": "Get the latest SaaS development technology updates and template news",
-      "placeholder": "Enter your email address",
+      "title": "Subscribe to Updates",
+      "description": "Get the latest model updates and translation technology trends of TranslateGemma",
+      "placeholder": "Please enter your email address",
       "subscribe_button": "Subscribe",
-      "success": "Successfully subscribed!",
+      "subscribing": "Subscribing...",
+      "success": "Subscribed Successfully!",
       "subscribe": {
-        "successMessage": "Successfully subscribed! Thank you for subscribing, we will send you SaaS development related updates regularly.",
+        "successMessage": "Subscribed successfully! Thank you for your subscription, we will send you the latest TranslateGemma-related news regularly.",
         "subscribeError": "Subscription failed, please try again later",
         "networkError": "Network error, please try again later"
       },
       "unsubscribe": {
-        "title": "Unsubscribe from Newsletter",
+        "title": "Unsubscribe from Mailing List",
         "description": "We're sorry to see you go, but we respect your choice",
         "emailLabel": "Email Address",
-        "emailPlaceholder": "Enter your email address",
+        "emailPlaceholder": "Please enter your email address",
         "button": "Unsubscribe",
         "processing": "Processing...",
         "loadingText": "Processing...",
-        "successMessage": "If you change your mind, you can always resubscribe to our newsletter.",
+        "successMessage": "If you change your mind, you can resubscribe to our mailing list at any time.",
         "backToHome": "Back to Home",
         "networkError": "Network error, please try again later",
-        "unsubscribeError": "Failed to unsubscribe"
+        "unsubscribeError": "Unsubscription failed"
+      },
+      "language": {
+        "zh": "Chinese",
+        "en": "English"
       }
     },
-    "copyright": "Get SaaS. All rights reserved."
+    "copyright": "TranslateGemma. All Rights Reserved."
   },
   "verify": {
     "title": "Email Verification",
     "description": "Verify your email address to complete account registration",
     "meta_title": "Email Verification",
-    "meta_description": "Verify your Get SaaS account email to complete account activation",
+    "meta_description": "Verify your TranslateGemma account email to complete account activation",
     "verifying": "Verifying your email...",
-    "success": "Email verification successful!",
+    "success": "Email verified successfully!",
     "failed": "Email verification failed",
     "token_missing": "Verification token is missing",
     "failed_retry": "Verification failed, please try again later",
-    "please_wait": "Please wait, verifying your email address...",
+    "please_wait": "Please wait while we verify your email address...",
     "login_now": "Login Now",
     "register_again": "Register Again",
-    "or": "or",
+    "or": "Or",
     "back_to_login": "Back to Login"
   },
   "auth": {
-    "meta_title": "Authentication - Get SaaS",
+    "meta_title": "User Authentication - TranslateGemma",
     "signin_title": "Sign In",
-    "signin_description": "Sign in to your Get SaaS account to start using modern SaaS templates",
+    "signin_description": "Sign in to your TranslateGemma account and start using professional AI translation services",
     "signup_title": "Sign Up",
-    "signup_description": "Create your Get SaaS account and start your SaaS development journey",
+    "signup_description": "Register a TranslateGemma account and start your multilingual translation journey",
     "error_title": "Authentication Error",
     "error_description": "An error occurred during authentication, please try again or contact technical support",
-    "error_page_title": "Sign In Failed",
+    "error_page_title": "Login Failed",
     "error_page_description": "An error occurred during authentication",
     "error_back_to_signin": "Back to Sign In",
     "error_back_to_home": "Back to Home",
     "error_contact_support": "If the problem persists, please contact",
-    "error_technical_support": "technical support",
+    "error_technical_support": "Technical Support",
     "errors": {
-      "Configuration": "Server configuration error, please contact administrator",
+      "Configuration": "Server configuration error, please contact the administrator",
       "AccessDenied": "Access denied, you may not have permission to access this application",
       "Verification": "Verification failed, please try again",
-      "OAuthSignin": "Third-party sign in failed, please try again",
-      "OAuthCallback": "Third-party sign in callback failed",
-      "OAuthCreateAccount": "Cannot create account, this email may already be in use",
-      "EmailCreateAccount": "Cannot create account, please check email address",
+      "OAuthSignin": "Third-party login failed, please try again",
+      "OAuthCallback": "Third-party login callback failed, please try again",
+      "OAuthCreateAccount": "Unable to create account, this email may already be in use",
+      "EmailCreateAccount": "Unable to create account, please check your email address",
       "Callback": "Callback error, please try again",
-      "OAuthAccountNotLinked": "This third-party account is not linked to an existing account, please use other sign in methods",
-      "EmailSignin": "Email sign in failed, please check email address",
-      "CredentialsSignin": "Invalid credentials, please check email and password",
-      "SessionRequired": "Login required to access this page",
-      "OAuthTokenError": "Failed to get authorization token, please try logging in again",
-      "OAuthUserInfoError": "Failed to get user information, please check authorization permissions",
-      "default": "Unknown error occurred during authentication, please try again"
+      "OAuthAccountNotLinked": "This third-party account is not linked to an existing account, please use another login method",
+      "EmailSignin": "Email login failed, please check your email address",
+      "CredentialsSignin": "Invalid login credentials, please check your email and password",
+      "SessionRequired": "Login is required to access this page",
+      "OAuthTokenError": "Failed to obtain authorization token, please try logging in again",
+      "OAuthUserInfoError": "Failed to obtain user information, please check authorization permissions",
+      "default": "An unknown error occurred during authentication, please try again"
     },
     "welcome_back": "Welcome Back",
-    "login_description": "Sign in to your Get SaaS account",
+    "login_description": "Sign in to your TranslateGemma account",
     "email": "Email Address",
     "password": "Password",
-    "email_placeholder": "Enter your email address",
-    "password_placeholder": "Enter your password",
+    "email_placeholder": "Please enter your email",
+    "password_placeholder": "Please enter your password",
     "login": "Sign In",
     "logging_in": "Signing in...",
-    "login_error": "Invalid email or password",
-    "login_failed": "Sign in failed, please try again later",
+    "login_error": "Incorrect email or password",
+    "login_failed": "Login failed, please try again later",
     "no_account": "Don't have an account?",
     "signup_now": "Sign up now",
     "forgot_password": "Forgot password?",
@@ -286,7 +277,7 @@
     "terms_of_service": "Terms of Service",
     "and": "and",
     "privacy_policy": "Privacy Policy",
-    "loginRequiredMessage": "Please log in first to use the audio summary feature.",
+    "loginRequiredMessage": "Please log in first to use the translation function.",
     "loginNow": "Sign In Now"
   },
   "common": {
@@ -301,11 +292,11 @@
   },
   "forgot_password": {
     "title": "Forgot Password",
-    "description": "Enter your email address and we'll send you a link to reset your password",
+    "description": "Enter your email address and we will send you a password reset link",
     "meta_title": "Forgot Password",
-    "meta_description": "Recover your Get SaaS account password by resetting it via email",
+    "meta_description": "Retrieve your TranslateGemma account password and reset it via email",
     "email_label": "Email Address",
-    "email_placeholder": "Enter your email address",
+    "email_placeholder": "Please enter your email address",
     "send_reset_link": "Send Reset Link",
     "sending": "Sending...",
     "success_message": "Password reset link has been sent to your email",
@@ -313,61 +304,61 @@
     "back_to_login": "Back to Login",
     "email_required": "Please enter your email address",
     "email_invalid": "Please enter a valid email address",
-    "send_failed": "Failed to send, please try again later",
+    "send_failed": "Sending failed, please try again later",
     "user_not_found": "This email address is not registered",
     "rate_limit": "Too many requests, please try again later"
   },
   "reset_password": {
     "title": "Reset Password",
-    "description": "Enter your new password",
+    "description": "Please enter your new password",
     "meta_title": "Reset Password",
-    "meta_description": "Reset your Get SaaS account password and set a new secure password",
+    "meta_description": "Reset your TranslateGemma account password and set a new secure password",
     "password_label": "New Password",
-    "password_placeholder": "Enter your new password",
+    "password_placeholder": "Please enter your new password",
     "confirm_password_label": "Confirm Password",
-    "confirm_password_placeholder": "Enter your new password again",
+    "confirm_password_placeholder": "Please enter your new password again",
     "reset_password": "Reset Password",
     "resetting": "Resetting...",
-    "success_message": "Password reset successful!",
-    "login_now": "Login Now",
-    "password_required": "Please enter password",
+    "success_message": "Password reset successfully!",
+    "login_now": "Sign In Now",
+    "password_required": "Please enter your password",
     "password_min_length": "Password must be at least 6 characters",
-    "password_mismatch": "Passwords do not match",
+    "password_mismatch": "The two passwords do not match",
     "token_invalid": "Reset link is invalid or expired",
-    "token_expired": "Reset link has expired, please request a new one",
+    "token_expired": "Reset link has expired, please reapply",
     "reset_failed": "Reset failed, please try again later",
     "back_to_forgot": "Back to Forgot Password"
   },
   "profile": {
     "title": "Profile",
     "description": "View and manage your account information",
-    "menu": "Menu",
-    "please_login": "Please login to view your profile",
-    "login_required": "Please login first",
-    "no_name_set": "No username set",
+    "menu": "Function Menu",
+    "please_login": "Please log in first to view your profile",
+    "login_required": "Please log in first",
+    "no_name_set": "Username not set",
     "not_set": "Not set",
     "verified": "Verified",
     "unverified": "Unverified",
-    "resend_verification": "Resend Verification",
+    "resend_verification": "Resend Verification Email",
     "sending": "Sending...",
-    "verification_email_sent": "Verification email sent, please check your inbox",
+    "verification_email_sent": "Verification email has been sent, please check your inbox",
     "verification_email_failed": "Failed to send verification email, please try again later",
     "loading": "Loading...",
-    "points": "License Benefits",
+    "points": "Translation Benefits",
     "points_history": "Benefits History",
-    "points_history_description": "View your license benefits and usage history",
-    "no_points_history": "No benefits history yet",
-    "register_bonus": "Registration Benefits",
-    "email_verify_bonus": "Email Verification Benefits",
-    "daily_login_bonus": "Daily Login Benefits",
-    "referral_bonus": "Referral Benefits",
-    "manual_operation": "Admin Operation",
+    "points_history_description": "View your translation benefits and usage records",
+    "no_points_history": "No benefits history",
+    "register_bonus": "Registration Bonus",
+    "email_verify_bonus": "Email Verification Bonus",
+    "daily_login_bonus": "Daily Login Bonus",
+    "referral_bonus": "Referral Bonus",
+    "manual_operation": "Administrator Operation",
     "points_operation": "Benefits Operation",
     "pagination": {
       "page_info": "Page {current} of {total}",
-      "total_records": "{total} records in total",
-      "previous": "Previous",
-      "next": "Next"
+      "total_records": "Total {total} records",
+      "previous": "Previous Page",
+      "next": "Next Page"
     },
     "points_actions": {
       "register": "Registration Benefits",
@@ -382,30 +373,30 @@
       "unknown": "Unknown Operation",
       "pay_amount": "Pay {amount}"
     },
-    "account_info": "Account Info",
+    "account_info": "Account Information",
     "registration_date": "Registration Date",
     "last_login": "Last Login",
     "account_status": "Account Status",
     "email_verified": "Email Verified",
-    "account_secure": "Account Secure",
+    "account_secure": "Account Security",
     "profile_complete": "Profile Complete",
     "personal_info": "Personal Information",
     "account_settings": "Account Settings",
     "connected_accounts": "Connected Accounts",
     "security": "Security Settings",
     "name": "Username",
-    "name_placeholder": "Enter your username",
+    "name_placeholder": "Please enter your username",
     "email": "Email Address",
     "email_unverified": "Unverified",
     "verify_email": "Verify Email",
     "avatar": "Avatar",
     "change_avatar": "Change Avatar",
     "current_password": "Current Password",
-    "current_password_placeholder": "Enter your current password",
+    "current_password_placeholder": "Please enter your current password",
     "new_password": "New Password",
-    "new_password_placeholder": "Enter your new password",
+    "new_password_placeholder": "Please enter your new password",
     "confirm_new_password": "Confirm New Password",
-    "confirm_new_password_placeholder": "Enter your new password again",
+    "confirm_new_password_placeholder": "Please enter your new password again",
     "change_password": "Change Password",
     "save_changes": "Save Changes",
     "saving": "Saving...",
@@ -458,18 +449,16 @@
     "upgrade_benefits_title": "Upgrade for More Benefits",
     "upgrade_benefits_1": "Complete SaaS template source code",
     "upgrade_benefits_2": "Priority technical support",
-    "upgrade_benefits_3": "Advanced feature components",
-    "upgrade_benefits_4": "Custom development services",
-    "upgrade_benefits_description": "Upgrade to Pro to unlock complete SaaS template benefits and exclusive technical support.",
-    "view_pricing": "View Pricing",
-    "points_purchase": "License Purchase",
-    "points_purchase_description": "Purchase license to get complete SaaS template benefits",
+    "upgrade_benefits_3": "12B model commercial license",
+    "upgrade_benefits_4": "Bulk translation API",
+    "points_purchase": "Points Purchase",
+    "points_purchase_description": "Purchase a license to access full TranslateGemma benefits",
     "points_package_starter": "Starter Package",
     "points_package_popular": "Popular Package",
     "points_package_premium": "Premium Package",
     "points_usage_title": "License Benefits",
-    "points_usage_ai_service": "Complete SaaS template source code",
-    "points_usage_premium_features": "Advanced feature components",
+    "points_usage_ai_service": "Multi-model translation access",
+    "points_usage_premium_features": "Premium translation features",
     "points_usage_priority_support": "Priority technical support",
     "purchase_now": "Buy Now",
     "processing_payment": "Processing...",
@@ -483,30 +472,32 @@
     "purchase_success": "Purchase Successful!",
     "points_added": "Benefits added",
     "current_points": "Current Benefits",
-    "purchased_points_label": "Purchased Benefits (Permanent)",
-    "gifted_points_label": "Bonus Benefits (With License)",
-    "subscription_gift_notice": "You have Pro license and received complete template benefits",
+    "view_pricing": "View Pricing",
+    "purchased_points_label": "Purchased Benefits (Never Expire)",
+    "gifted_points_label": "Gifted Benefits (Expire When Subscription Ends)",
+    "subscription_gift_notice": "You are currently subscribed to the Pro version and have access to professional-grade translation benefits",
     "purchased_points": "Purchased Benefits",
-    "purchased_points_description": "Benefits purchased through payment, permanent access to template features",
-    "gifted_points": "Bonus Benefits",
-    "gifted_points_description": "Benefits included with Pro license, access to premium features and support",
+    "purchased_points_description": "Benefits purchased via payment, never expire and can be used long-term",
+    "gifted_points": "Gifted Benefits",
+    "gifted_points_description": "Benefits gifted with Pro version subscription, will be cleared when the subscription expires",
     "usage_priority": "Usage Priority",
-    "usage_priority_description": "System will prioritize using gifted points first, then purchased points",
+    "usage_priority_description": "The system will use gifted benefits first, then purchased benefits",
     "recommended": "Recommended",
     "processing": "Processing...",
     "payment_history": "Payment History",
+    "payment_history_description": "View all payment records and transaction details",
     "payment_history_details": {
       "title": "Payment History",
       "stats": {
         "title": "Payment Statistics",
         "total_payments": "Total Payments",
-        "total_amount": "Total Amount",
-        "total_points_purchased": "Total Points Purchased",
+        "total_amount": "Total Amount Paid",
+        "total_points_purchased": "Total Benefits Purchased",
         "successful_payments": "Successful Payments"
       },
       "payment_types": {
         "subscription": "Subscription",
-        "points_purchase": "Points Purchase",
+        "points_purchase": "Benefits Purchase",
         "other": "Other"
       },
       "payment_statuses": {
@@ -520,7 +511,7 @@
         "type": "Type",
         "product": "Product",
         "amount": "Amount",
-        "points": "Points",
+        "points": "Benefits",
         "status": "Status",
         "time": "Time"
       },
@@ -531,40 +522,39 @@
         "all_statuses": "All Statuses"
       },
       "empty_state": {
-        "title": "No Payment Records"
+        "title": "No payment records"
       },
       "errors": {
         "fetch_failed": "Failed to fetch payment records"
       }
-    },
-    "payment_history_description": "View all your payment records and transaction details"
+    }
   },
   "dashboard": {
     "payment_success": {
       "title": "Purchase Successful!",
-      "subtitle": "Welcome to Get SaaS Professional",
+      "subtitle": "Welcome to TranslateGemma Pro",
       "processing_title": "Processing Payment Result",
       "processing_description": "Please wait while we confirm your purchase status...",
       "verifying_title": "Verifying Purchase Status",
-      "verifying_description": "Confirming your professional purchase...",
-      "success_toast": "🎉 Professional purchase successful! You have received complete SaaS template and technical support",
-      "no_session_toast": "💡 You have reached the purchase success page, please use the navigation buttons below"
+      "verifying_description": "Confirming your Pro version purchase...",
+      "success_toast": "🎉 Pro version purchased successfully! You now have access to full multimodal translation features and technical support",
+      "no_session_toast": "💡 You have reached the purchase success page, please navigate using the buttons below"
     },
     "subscription_info": {
-      "title": "Professional License",
+      "title": "Pro Version License",
       "status_label": "License Status:",
       "status_active": "Active",
       "status_processing": "Processing",
       "plan_label": "License Type:",
-      "plan_pro": "Professional",
+      "plan_pro": "Pro Version",
       "expires_label": "Support Expires:"
     },
     "points_reward": {
-      "title": "Purchase Benefits",
+      "title": "Purchased Benefits",
       "total_points": "Total Benefits",
-      "purchased_points": "Purchase Benefits",
-      "gifted_points": "Bonus Benefits",
-      "gift_notice": "🎁 You have received complete professional benefits including source code, documentation and technical support!"
+      "purchased_points": "Purchased Benefits",
+      "gifted_points": "Gifted Benefits",
+      "gift_notice": "🎁 You have access to full Pro version benefits, including multimodal translation, batch processing, and priority technical support!"
     },
     "actions": {
       "view_profile": "View Profile",
@@ -572,14 +562,14 @@
     },
     "loading": "Loading...",
     "error": {
-      "fetch_failed": "Failed to fetch subscription information, please refresh and try again",
+      "fetch_failed": "Failed to fetch subscription information, please refresh the page and try again",
       "manage_subscription_failed": "Unable to open subscription management page, please try again later"
     }
   },
   "admin": {
     "newsletter": {
-      "meta_title": "Newsletter Statistics - Get SaaS",
-      "meta_description": "View and manage newsletter subscription statistics, including subscriber counts, language distribution, and more.",
+      "meta_title": "Newsletter Statistics - TranslateGemma",
+      "meta_description": "View and manage newsletter statistics, including number of subscribers, language distribution, etc.",
       "title": "Newsletter Statistics",
       "stats": {
         "total_subscriptions": "Total Subscriptions",
@@ -589,14 +579,14 @@
         "english_subscriptions": "English Subscriptions",
         "english_users": "English Users",
         "total_registrations": "Total Registrations",
-        "including_unsubscribed": "Including unsubscribed"
+        "including_unsubscribed": "Including unsubscribed users"
       },
       "subscription_list": {
         "title": "Subscription List",
         "description": "Detailed information of all newsletter subscribers",
         "active_tab": "Active Subscriptions",
-        "inactive_tab": "Cancelled Subscriptions",
-        "no_data": "No data available",
+        "inactive_tab": "Unsubscribed",
+        "no_data": "No data",
         "table": {
           "email": "Email Address",
           "language": "Language",
@@ -627,76 +617,114 @@
   },
   "unauthorized": {
     "title": "Access Denied",
-    "description": "You don't have permission to access this page. This page is restricted to administrators only.",
+    "description": "You do not have permission to access this page. This page is for administrators only.",
     "errorMessage": "If you believe this is an error, please contact the system administrator.",
     "backToHome": "Back to Home",
     "signInAgain": "Sign In Again"
   },
   "testimonials": {
-    "title": "User Reviews",
-    "description": "Join thousands of developers and entrepreneurs already using Get SaaS to rapidly build and deploy SaaS products"
+    "title": "Industry Recognition",
+    "description": "Trusted by thousands of cross-border pioneers worldwide. TranslateGemma 12B even outperforms the 27B benchmark model with twice the parameter count. This is a major breakthrough in localization development.",
+    "items": [
+      {
+        "name": "Alex Johnson",
+        "title": "Cross-border E-commerce CEO",
+        "content": "TranslateGemma has enabled true contextual translation in our cross-border business! The 12B model runs smoothly on consumer-grade laptops, and the translation quality far exceeds traditional tools, allowing us to easily enter new markets.",
+        "rating": 5
+      },
+      {
+        "name": "Sarah Miller",
+        "title": "International Product Manager",
+        "content": "The offline capability of TranslateGemma is incredible! We can now provide translation services even in areas with poor connectivity. The 4B model runs perfectly on mobile devices.",
+        "rating": 5
+      },
+      {
+        "name": "Li Ming",
+        "title": "Technical Director",
+        "content": "As a technical director, I am impressed by TranslateGemma's Gemma 3 architecture. The multimodal translation feature allows our product to directly translate text in images, greatly improving the user experience.",
+        "rating": 5
+      },
+      {
+        "name": "David Chen",
+        "title": "Developer",
+        "content": "The OpenAI-compatible API makes integration seamless! We integrated TranslateGemma into our SaaS product in just hours. The context-aware translation is a game-changer.",
+        "rating": 5
+      },
+      {
+        "name": "Wang Xiaoyu",
+        "title": "Independent Developer",
+        "content": "TranslateGemma's local privacy-first design gives me peace of mind to use it. It supports full offline inference, ensuring that business secrets never leave the device and I have complete control over data assets. This is extremely important to us.",
+        "rating": 5
+      },
+      {
+        "name": "Michael Rodriguez",
+        "title": "Enterprise User",
+        "content": "Perfect for enterprise deployment! The 27B model with custom domain fine-tuning has transformed our multilingual customer support. Translation quality is now native-level.",
+        "rating": 5
+      }
+    ]
   },
   "blogPage": {
-    "title": "Get SaaS Blog",
-    "subtitle": "Explore the latest SaaS development trends and insights",
+    "title": "TranslateGemma Blog",
+    "subtitle": "Explore the latest trends and technical sharing of AI translation",
     "contactPost": {
       "badge": "Latest",
-      "date": "December 2024",
-      "author": "Get SaaS Team",
-      "title": "Contact Us - Let's Explore the Infinite Possibilities of SaaS Together",
-      "description": "We're excited to connect with you! Whether you want to learn about our SaaS template services or have any technical questions, we're always ready to help.",
+      "date": "January 2026",
+      "author": "TranslateGemma Team",
+      "title": "Start Your Boundless Communication Now",
+      "description": "Ready to experience contextual translation? Join 10,000+ developers and cross-border sellers in their choice.",
       "contactMethods": {
-        "title": "🌍 Contact Methods",
+        "title": "🤝 Contact Methods",
         "twitter": {
           "title": "Twitter",
-          "description": "Follow us for latest updates",
-          "handle": "@zyailive"
+          "description": "Follow us for the latest updates",
+          "handle": "@translategemma"
         },
         "email": {
           "title": "Email",
-          "description": "Business & Technical Support",
-          "address": "app@itusi.cn"
+          "description": "Business cooperation and technical support",
+          "address": "support@translategemma.org"
         },
         "wechat": {
           "title": "WeChat",
-          "description": "Add WeChat for exclusive service",
-          "id": "zyailive01"
+          "description": "Add WeChat for exclusive services",
+          "id": "translategemma"
         }
       },
       "services": {
-        "title": "🚀 What We Can Do For You?",
-        "podcast": "Complete SaaS template source code and technical documentation",
-        "voiceover": "Modern user authentication and payment system integration",
-        "video": "Multi-language support and SEO optimization solutions",
-        "support": "24/7 professional technical support",
-        "custom": "Tailored SaaS features according to your needs"
+        "title": "🎯 What Can We Do For You?",
+        "podcast": "Open source translation model download and technical documentation",
+        "voiceover": "Multilingual translation solution integration",
+        "video": "Enterprise-level private deployment support",
+        "support": "7×24-hour professional technical support",
+        "custom": "Customize exclusive translation features according to your needs"
       },
       "cta": {
-        "title": "Ready to Start Your SaaS Development Journey?",
-        "startNow": "Start Now",
-        "contactUs": "Contact Us"
+        "title": "Ready to start your AI translation journey?",
+        "startNow": "Register a free account",
+        "contactUs": "View developer documentation"
       }
     },
     "otherPosts": {
-      "title": "SaaS Development Technology Insights",
-      "description": "Explore the latest SaaS template technology trends and in-depth analysis",
+      "title": "AI Translation Technology Sharing",
+      "description": "Explore the latest technical trends and in-depth analysis of TranslateGemma",
       "post1": {
-        "category": "Technology Analysis",
-        "date": "July 2025",
-        "title": "What Websites Can Get SaaS Build?",
-        "excerpt": "Understand Get SaaS template application scenarios, from e-commerce platforms to enterprise management systems, to online education platforms."
+        "category": "Technical Analysis",
+        "date": "January 2026",
+        "title": "What scenarios can TranslateGemma be applied to?",
+        "excerpt": "In-depth understanding of TranslateGemma's application scenarios, from personal daily translation to enterprise cross-border communication, to complete solutions for small language cultural exchanges."
       },
       "post2": {
         "category": "Product Introduction",
-        "date": "July 2025",
-        "title": "What Features Does Get SaaS Have?",
-        "excerpt": "Explore the core features provided by Get SaaS template: user authentication, payment systems, multi-language support, SEO optimization and more."
+        "date": "January 2026",
+        "title": "What core features does TranslateGemma have?",
+        "excerpt": "In-depth understanding of the core features provided by TranslateGemma: scenario-based mode injection, local privacy priority, two-stage fine-tuning enhancement, multimodal understanding, and other complete solutions."
       },
       "post3": {
         "category": "Industry Insights",
-        "date": "July 2025",
-        "title": "What is SaaS?",
-        "excerpt": "Understand the definition, business model, and technical architecture of SaaS, and how to rapidly build modern SaaS products."
+        "date": "January 2026",
+        "title": "How do open-source translation models change cross-language communication?",
+        "excerpt": "In-depth understanding of the development trends, core advantages and application value of open-source translation technology, and how TranslateGemma leads the innovation of AI translation."
       },
       "readMore": "Read More"
     }
