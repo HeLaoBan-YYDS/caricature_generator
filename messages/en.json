@@ -1,31 +1,31 @@
 {
   "metadata": {
-    "title": "TranslateGemma - Online Translation Tool",
-    "description": "No more tolerating mechanical translation. With Google TranslateGemma, achieve native-level contextual translation on any device. Based on the latest Gemma 3 architecture, it offers an intelligent density translation engine supporting 55+ languages, with offline operation and cloud deployment capabilities.",
+    "title": "Caricature Generator - Fun AI Caricature Generator for Everyone",
+    "description": "Turn any photo into a cartoon in seconds with our fun AI Caricature Generator. Simple, fast, and free to try. Start creating today!",
     "terms": {
-      "title": "Terms of Service - TranslateGemma",
-      "description": "View the terms of use for TranslateGemma AI translation services, including service usage rules, license agreements, and user rights and responsibilities"
+      "title": "Terms of Service - Caricature Generator",
+      "description": "View the terms of use for Caricature Generator AI services, including service usage rules, license agreements, and user rights and responsibilities"
     },
     "privacy": {
-      "title": "Privacy Policy - TranslateGemma",
-      "description": "Learn how TranslateGemma handles user data and protects privacy to ensure the security of your translated content"
+      "title": "Privacy Policy - Caricature Generator",
+      "description": "Learn how Caricature Generator handles user data and protects privacy to ensure the security of your images and content"
     },
     "cookies": {
-      "title": "Cookie Policy - TranslateGemma",
-      "description": "Learn how TranslateGemma uses Cookies and related technologies to optimize user experience and website performance"
+      "title": "Cookie Policy - Caricature Generator",
+      "description": "Learn how Caricature Generator uses Cookies and related technologies to optimize user experience and website performance"
     }
   },
   "demoBanner": {
     "prefix": "This is the",
-    "productName": "TranslateGemma",
+    "productName": "Caricature Generator",
     "suffix": "demo site. After experiencing the full features,",
     "cta": "Try it for free now"
   },
   "navbar": {
     "home": "Home",
     "features": "Features",
-    "pricing": "Free to Use",
-    "blog": "Tech Blog",
+    "pricing": "Pricing",
+    "blog": "Blog",
     "signUp": "Sign Up Now",
     "signIn": "Sign In",
     "profile": "Profile",
@@ -39,25 +39,25 @@
     }
   },
   "hero": {
-    "title": "TranslateGemma Online Translation Tool",
-    "description": "Based on the latest Gemma 3 architecture, we provide an intelligent density translation engine. Whether running the 4B model offline on mobile devices or deploying the 27B flagship version on the cloud, TranslateGemma accurately captures subtle differences in slang, spoken language, and business contexts.",
-    "badge": "🚀 Open Source Multilingual Translation Solution",
+    "title": "Caricature Generator – Fun AI Caricature Generator for Everyone",
+    "description": "Welcome to the caricature generator that everyone loves. Built for fun, speed, and creativity. Turn any photo into a cartoon in seconds. Simple, playful, and free to try.",
+    "badge": "✨ Turn Photos into Cartoons Instantly",
     "features": {
       "readyToUse": "No Credit Card Required",
       "multiScenario": "Privacy & Security Assurance",
-      "professionalOutput": "Supports 55+ Languages"
+      "professionalOutput": "High-Quality Results"
     }
   },
   "features": {
-    "title": "Why Choose TranslateGemma?",
-    "liveGeneration": "Quick Deployment",
+    "title": "Why Choose Our Caricature Generator",
+    "liveGeneration": "Fast Results",
     "contentSummaryAgent": {
-      "title": "Ultimate Intelligent Density",
-      "description": "The 4B model is optimized for mobile devices, and the 12B model runs smoothly on consumer-grade laptops with a 2x+ improvement in response speed. Native multimodality: directly extract and translate text from images (such as menus, notices) without additional OCR plugins, maintaining visual context consistency."
+      "title": "Advanced AI Technology",
+      "description": "Uses advanced AI to transform photos into cartoons. Simple, playful, and free to try. Works online with no installation required. Focuses on fun and creative results."
     },
     "podcastAgent": {
-      "title": "Elegant Failure Logic",
-      "description": "Even when processing low-resource languages (such as Thai, Vietnamese), it can reduce hallucinations through Reinforcement Learning (RL) and generate natural expressions. Scenario-based mode injection: freely switch between spoken and official document modes based on specific Chat Template guidance, eliminating misinterpretation."
+      "title": "Easy to Use",
+      "description": "Anyone can use our caricature generator without skills. Just upload your photo, let the AI analyze it, and get a cartoon image instantly. Handles everything automatically for you."
     }
   },
   "faq": {
@@ -68,65 +68,65 @@
     },
     "usage": {
       "howToStart": {
-        "question": "Can TranslateGemma really run offline?",
-        "answer": "Yes. The 4B and 12B models are designed specifically for personal computing devices, and you can run them in a completely offline environment using Ollama or local applications."
+        "question": "How does the Caricature Generator work?",
+        "answer": "It's easy! Just upload your photo, let our AI analyze it, and get a cartoon image instantly. No skills required - the generator handles everything automatically."
       },
       "voiceQuality": {
-        "question": "Is its translation quality really better than Google Translate?",
-        "answer": "In professional benchmark tests such as WMT24++, TranslateGemma, which has undergone two-stage fine-tuning, performs better in contextual naturalness and fidelity, especially suitable for processing unstructured and informal text."
+        "question": "Do I need to install anything?",
+        "answer": "No installation needed! Our Caricature Generator works completely online. Just visit our website, upload your photo, and start creating."
       },
       "contentOwnership": {
-        "question": "How to integrate it into my existing workflow?",
-        "answer": "We provide a standard OpenAI-compatible interface and support the apply_chat_template system, allowing you to integrate TranslateGemma into your SaaS products at extremely low cost."
+        "question": "Is the Caricature Generator free to use?",
+        "answer": "Yes, we offer a free version that allows you to try the basic features. We also have premium plans for more advanced options and unlimited usage."
       },
       "dataPrivacy": {
-        "question": "Is my translation data secure?",
-        "answer": "Yes, TranslateGemma values data security. It supports full Local Inference, ensuring that business secrets never leave your device and you have complete control over your data assets. When used online, translation data is transmitted encrypted, and all user data is only used for translation services and will not be disclosed to third parties."
+        "question": "Is my photo data secure?",
+        "answer": "Yes, we take privacy seriously. Your photos are processed securely, and we do not store your images longer than necessary. All data is transmitted encrypted to ensure your privacy."
       }
     },
     "pricing": {
       "pointsExpiry": {
-        "question": "Is technical support provided after purchase?",
-        "answer": "Yes. The Pro version includes priority technical support, and the Enterprise version offers 7×24-hour technical support. This includes installation guidance, function consultation, problem resolution, etc. Basic version users can get support through the community."
+        "question": "What file formats are supported?",
+        "answer": "We support common image formats including JPG, PNG, and WEBP. For best results, we recommend using high-resolution images."
       },
       "upgradeAnytime": {
-        "question": "Can I upgrade my TranslateGemma plan at any time?",
-        "answer": "Absolutely! You can upgrade to a higher-tier plan at any time. After upgrading, you will immediately get new features and a longer technical support period, and your purchased license remains valid."
+        "question": "How long does it take to generate a caricature?",
+        "answer": "Our AI processes images in seconds. You'll get your cartoon result almost instantly after uploading your photo."
       },
       "enterpriseFeatures": {
-        "question": "What special features does the Enterprise version of TranslateGemma include?",
-        "answer": "The Enterprise version provides customized development services for the 27B high-precision model, private deployment support, 7×24-hour technical support, team training and consulting, as well as custom industry corpus fine-tuning services, fully tailored solutions according to your business needs."
+        "question": "Can I use the generated caricatures commercially?",
+        "answer": "Yes, with our premium plans, you get commercial usage rights for all generated caricatures. The free plan is for personal use only."
       }
     }
   },
   "pricing": {
-    "title": "Transparent Pricing",
+    "title": "Simple Pricing",
     "recommended": "Recommended",
     "free": {
-      "name": "Basic (Personal)",
+      "name": "Free",
       "price": "$0 / month",
-      "description": "Access to 4B/12B local models, 10k characters free daily quota, basic community support",
+      "description": "Basic caricature generation with watermark, limited to 5 images per day",
       "features": {
-        "template": "Access to 4B/12B local models",
-        "auth": "10k characters free daily quota",
+        "template": "AI-powered caricature generation",
+        "auth": "5 free images per day",
         "support": "Basic community support"
       },
-      "cta": "Download Now"
+      "cta": "Try It Now"
     },
     "pro": {
-      "name": "Professional (Pro)",
-      "price": "$19 / month",
-      "originalPrice": "$99",
+      "name": "Pro",
+      "price": "$9.99 / month",
+      "originalPrice": "$19.99",
       "discountPercent": "50",
-      "savings": "$50",
+      "savings": "$10",
       "discountBadge": "Limited Time 50% Off",
-      "description": "Access to 27B flagship cloud API, unlimited translation requests, priority technical support",
+      "description": "Unlimited caricature generation without watermark, high-resolution downloads",
       "features": {
-        "template": "Access to 27B flagship cloud API",
-        "payment": "Unlimited translation requests",
-        "support": "Priority technical support"
+        "template": "Unlimited image generation",
+        "payment": "No watermarks on results",
+        "support": "Priority email support"
       },
-      "cta": "Buy Now"
+      "cta": "Upgrade Now"
     },
     "discount": {
       "was": "Was",
@@ -137,27 +137,27 @@
     "enterprise": {
       "name": "Enterprise",
       "price": "Contact Us",
-      "description": "For large enterprises, provides customized services",
+      "description": "For businesses and teams with custom needs",
       "features": {
-        "custom": "Private cloud image deployment",
-        "deployment": "Custom industry corpus fine-tuning",
-        "support": "SLA service level agreement guarantee",
-        "training": "7×24-hour technical support"
+        "custom": "API access for integration",
+        "deployment": "Bulk image processing",
+        "support": "Dedicated account manager",
+        "training": "Custom AI model training"
       },
-      "cta": "Book a Demo"
+      "cta": "Contact Sales"
     }
   },
   "footer": {
-    "description": "Ready to experience contextual translation? Join 10,000+ developers and cross-border sellers in their choice. Based on Google Gemma 3 architecture, TranslateGemma supports 55+ languages, offering offline operation and cloud deployment to facilitate barrier-free cross-language communication.",
+    "description": "Ready to turn your photos into fun cartoons? Join thousands of users who love our Caricature Generator. Fast, easy, and free to try - start creating today!",
     "services": {
       "title": "Services",
       "features": "Features",
       "pricing": "Pricing Plans",
-      "blog": "Tech Blog"
+      "blog": "Blog"
     },
     "product": {
       "title": "Product",
-      "template": "Model Download",
+      "template": "AI Caricature Generation",
       "features": "Features",
       "pricing": "Pricing Plans"
     },
@@ -169,13 +169,13 @@
     },
     "newsletter": {
       "title": "Subscribe to Updates",
-      "description": "Get the latest model updates and translation technology trends of TranslateGemma",
+      "description": "Get the latest news and updates about our Caricature Generator",
       "placeholder": "Please enter your email address",
       "subscribe_button": "Subscribe",
       "subscribing": "Subscribing...",
       "success": "Subscribed Successfully!",
       "subscribe": {
-        "successMessage": "Subscribed successfully! Thank you for your subscription, we will send you the latest TranslateGemma-related news regularly.",
+        "successMessage": "Subscribed successfully! Thank you for your subscription, we will send you the latest Caricature Generator-related news regularly.",
         "subscribeError": "Subscription failed, please try again later",
         "networkError": "Network error, please try again later"
       },
@@ -197,13 +197,13 @@
         "en": "English"
       }
     },
-    "copyright": "TranslateGemma. All Rights Reserved."
+    "copyright": "Caricature Generator. All Rights Reserved."
   },
   "verify": {
     "title": "Email Verification",
     "description": "Verify your email address to complete account registration",
     "meta_title": "Email Verification",
-    "meta_description": "Verify your TranslateGemma account email to complete account activation",
+    "meta_description": "Verify your Caricature Generator account email to complete account activation",
     "verifying": "Verifying your email...",
     "success": "Email verified successfully!",
     "failed": "Email verification failed",
@@ -216,11 +216,11 @@
     "back_to_login": "Back to Login"
   },
   "auth": {
-    "meta_title": "User Authentication - TranslateGemma",
+    "meta_title": "User Authentication - Caricature Generator",
     "signin_title": "Sign In",
-    "signin_description": "Sign in to your TranslateGemma account and start using professional AI translation services",
+    "signin_description": "Sign in to your Caricature Generator account and start creating fun cartoons",
     "signup_title": "Sign Up",
-    "signup_description": "Register a TranslateGemma account and start your multilingual translation journey",
+    "signup_description": "Register a Caricature Generator account and start your cartoon creation journey",
     "error_title": "Authentication Error",
     "error_description": "An error occurred during authentication, please try again or contact technical support",
     "error_page_title": "Login Failed",
@@ -247,7 +247,7 @@
       "default": "An unknown error occurred during authentication, please try again"
     },
     "welcome_back": "Welcome Back",
-    "login_description": "Sign in to your TranslateGemma account",
+    "login_description": "Sign in to your Caricature Generator account",
     "email": "Email Address",
     "password": "Password",
     "email_placeholder": "Please enter your email",
@@ -277,7 +277,7 @@
     "terms_of_service": "Terms of Service",
     "and": "and",
     "privacy_policy": "Privacy Policy",
-    "loginRequiredMessage": "Please log in first to use the translation function.",
+    "loginRequiredMessage": "Please log in first to use the caricature generation function.",
     "loginNow": "Sign In Now"
   },
   "common": {
@@ -294,7 +294,7 @@
     "title": "Forgot Password",
     "description": "Enter your email address and we will send you a password reset link",
     "meta_title": "Forgot Password",
-    "meta_description": "Retrieve your TranslateGemma account password and reset it via email",
+    "meta_description": "Retrieve your Caricature Generator account password and reset it via email",
     "email_label": "Email Address",
     "email_placeholder": "Please enter your email address",
     "send_reset_link": "Send Reset Link",
@@ -312,7 +312,7 @@
     "title": "Reset Password",
     "description": "Please enter your new password",
     "meta_title": "Reset Password",
-    "meta_description": "Reset your TranslateGemma account password and set a new secure password",
+    "meta_description": "Reset your Caricature Generator account password and set a new secure password",
     "password_label": "New Password",
     "password_placeholder": "Please enter your new password",
     "confirm_password_label": "Confirm Password",
@@ -344,16 +344,16 @@
     "verification_email_sent": "Verification email has been sent, please check your inbox",
     "verification_email_failed": "Failed to send verification email, please try again later",
     "loading": "Loading...",
-    "points": "Translation Benefits",
-    "points_history": "Benefits History",
-    "points_history_description": "View your translation benefits and usage records",
-    "no_points_history": "No benefits history",
+    "points": "Generation Credits",
+    "points_history": "Credits History",
+    "points_history_description": "View your generation credits and usage records",
+    "no_points_history": "No credits history",
     "register_bonus": "Registration Bonus",
     "email_verify_bonus": "Email Verification Bonus",
     "daily_login_bonus": "Daily Login Bonus",
     "referral_bonus": "Referral Bonus",
     "manual_operation": "Administrator Operation",
-    "points_operation": "Benefits Operation",
+    "points_operation": "Credits Operation",
     "pagination": {
       "page_info": "Page {current} of {total}",
       "total_records": "Total {total} records",
@@ -361,15 +361,15 @@
       "next": "Next Page"
     },
     "points_actions": {
-      "register": "Registration Benefits",
-      "email_verify": "Email Verification Benefits",
-      "daily_login": "Daily Login Benefits",
-      "referral": "Referral Benefits",
+      "register": "Registration Credits",
+      "email_verify": "Email Verification Credits",
+      "daily_login": "Daily Login Credits",
+      "referral": "Referral Credits",
       "manual": "Admin Operation",
-      "purchase": "Purchase License",
-      "subscription_gift": "Pro License Benefits",
-      "subscription_renewal_gift": "Pro License Renewal Benefits",
-      "subscription_expired": "License Expired",
+      "purchase": "Purchase Credits",
+      "subscription_gift": "Pro Plan Benefits",
+      "subscription_renewal_gift": "Pro Plan Renewal Benefits",
+      "subscription_expired": "Plan Expired",
       "unknown": "Unknown Operation",
       "pay_amount": "Pay {amount}"
     },
@@ -706,25 +706,25 @@
       }
     },
     "otherPosts": {
-      "title": "AI Translation Technology Sharing",
-      "description": "Explore the latest technical trends and in-depth analysis of TranslateGemma",
+      "title": "Caricature Generator Insights",
+      "description": "Explore the latest trends and features of the fun AI Caricature Generator",
       "post1": {
-        "category": "Technical Analysis",
+        "category": "Usage Scenarios",
         "date": "January 2026",
-        "title": "What scenarios can TranslateGemma be applied to?",
-        "excerpt": "In-depth understanding of TranslateGemma's application scenarios, from personal daily translation to enterprise cross-border communication, to complete solutions for small language cultural exchanges."
+        "title": "What scenarios can the Caricature Generator be applied to?",
+        "excerpt": "Discover how the Caricature Generator can be used for personal fun, social media sharing, creative content creation, and more. Perfect for casual users and content creators alike."
       },
       "post2": {
-        "category": "Product Introduction",
+        "category": "Product Features",
         "date": "January 2026",
-        "title": "What core features does TranslateGemma have?",
-        "excerpt": "In-depth understanding of the core features provided by TranslateGemma: scenario-based mode injection, local privacy priority, two-stage fine-tuning enhancement, multimodal understanding, and other complete solutions."
+        "title": "What core features does the Caricature Generator offer?",
+        "excerpt": "Learn about the key features of our Caricature Generator: AI-powered transformation, instant photo-to-cartoon conversion, free online access, no installation required, and high-quality results."
       },
       "post3": {
-        "category": "Industry Insights",
+        "category": "Industry Trends",
         "date": "January 2026",
-        "title": "How do open-source translation models change cross-language communication?",
-        "excerpt": "In-depth understanding of the development trends, core advantages and application value of open-source translation technology, and how TranslateGemma leads the innovation of AI translation."
+        "title": "How is AI changing the caricature creation experience?",
+        "excerpt": "Explore the development of AI-powered image generation technology and how our Caricature Generator is leading the way in making fun cartoon creation accessible to everyone."
       },
       "readMore": "Read More"
     }
