@@ -1,213 +1,51 @@
-# TranslateGemma 小语种翻译工具站开发方案
+Transform Selfies into Masterpieces with the World's Most Intuitive AI Caricature Generator
+Why Settle for a Generic Filter When You Can Own a Studio-Quality Caricature?
+Our cutting-edge AI doesn’t just "cartoonize" your photos—it captures your essence. By blending advanced neural networks with traditional artistic principles, we exaggerate your best features to create hilarious, bold, and unforgettable caricatures in seconds.
 
-## 一、项目背景与目标
+Features That Give You Full Creative Control
+🎨 Precision Exaggeration Sliders
+Unlike "black-box" generators, we put the brush in your hands. Adjust our unique "Exaggeration Sliders" to fine-tune your smile, amplify your eyes, or sculpt your jawline. Create a look that is as subtle or as wild as you want.
 
-### 1.1 背景
+🎭 20+ Iconic Artistic Styles
+From the gritty lines of Editorial Satire and the vibrant world of 90s Cartoons to the polished depth of 3D Pixar-style renders, find the perfect aesthetic for your personality or brand.
 
-随着 AI 翻译模型的发展，主流翻译工具（如 Google Translate、DeepL）在英语及主流语言上的体验已趋于成熟，但在**低资源语言 / 小语种 / 方言场景**中仍存在以下问题：
+⚡ High-Resolution, Print-Ready Exports
+Whether it’s for a LinkedIn avatar, a personalized mug for a birthday gift, or a massive wall poster, our tool exports in crystal-clear high resolution (PNG, JPG, or SVG) with built-in crop and bleed guides.
 
-- 翻译生硬，缺乏语境理解
-- 对口语、俚语、网络用语支持不足
-- 本地文化和表达方式缺失
+🛡️ Privacy-First Creativity
+Your photos are yours alone. We use military-grade encryption to process your images, ensuring that your data is never stored, sold, or used to train third-party models without your explicit consent.
 
-Google 推出的 **TranslateGemma / Gemma 系列模型**，在多语言和低资源语言方向具有明确的技术叙事和潜在优势，适合作为一个**垂直翻译工具站的核心引擎**。
+How It Works: From Photo to Fun in 3 Steps
+Step 1: Upload Your Subject
+Simply upload a well-lit photo. Our AI handles everything from single portraits to group photos of friends, family, or your entire team.
 
-### 1.2 项目目标
+Step 2: Choose Your Vibe
+Select an artistic style and type in a quick prompt like "Superhero theme with a carnival background" or "Victorian era aristocrat."
 
-打造一个：
+Step 3: Refine & Download
+Preview multiple AI-generated versions in real-time. Use the ImagineBot to polish details and download your masterpiece in 4K resolution.
 
-> **专注小语种 / 低资源语言的高质量翻译工具站**
+Real Stories from Our Creative Community
+"I needed a unique gift for my wedding groomsmen. This generator captured their quirks so perfectly that it became the talk of the night!"
 
-核心目标包括：
+— David K., Verified User
 
-- 解决小语种翻译质量问题
-- 抢占 TranslateGemma 相关的早期 SEO 与心智
-- 构建可持续扩展的多语言工具平台
-- 为后续 API / 订阅制变现打基础
+"As a digital marketer, finding images that aren't 'AI-slop' is hard. This tool produces clean, professional-looking illustrations that my audience loves."
 
----
+— Elena S., Content Creator
 
-## 二、产品定位
+Frequently Asked Questions
+Is it really free to use?
+Yes! You can start creating immediately with our free tier. For power users who need high-resolution batch processing and commercial licensing, we offer flexible subscription plans.
 
-### 2.1 产品一句话定位
+Can I use these caricatures for my business?
+Absolutely. Our Pro and Enterprise plans include a full commercial license, making it perfect for branding, merchandise, and social media campaigns.
 
-> Powered by TranslateGemma 的小语种高质量翻译工具
+How does the AI maintain my likeness?
+Our proprietary Face-Sync Technology analyzes over 128 unique facial landmarks. This ensures that even with extreme exaggeration, your friends and family will instantly recognize you.
 
-### 2.2 目标用户
+What if I’m not happy with the result?
+Our Iterative Variation Mode allows you to blend elements from different generations. You can keep refining the prompt until you get the perfect "Aha!" moment.
 
-- 出海创业者
-- 跨境电商从业者
-- 多语言内容创作者
-- 海外社媒运营人员
-- 使用小语种的普通用户（非英语母语）
-
-### 2.3 核心使用场景
-
-- 日常交流翻译
-- 社交媒体内容翻译
-- 口语 / 俚语理解
-- 简短商务沟通
-- 海外客服沟通
-
----
-
-## 三、语言切入策略（非常关键）
-
-### 3.1 首批支持语言（建议）
-
-优先选择：
-
-- 搜索量存在
-- 竞争较弱
-- 商业价值明确
-
-示例组合：
-
-- 印尼语 ⇄ 英语
-- 越南语 ⇄ 英语
-- 泰语 ⇄ 英语
-- 阿拉伯语（口语）⇄ 英语
-- 印地语 ⇄ 英语
-
-> 原则：**一次只重点打一个语言对**，其余作为补充
-
-### 3.2 差异化语言策略
-
-- 支持「口语 / 非正式表达」
-- 支持「俚语 / 网络用语」
-- 强调“自然表达”而非直译
-
----
-
-## 四、核心功能设计（MVP 优先）
-
-### 4.1 MVP 必须功能
-
-- 文本输入框
-- 源语言 / 目标语言选择
-- 翻译结果展示
-- 一键复制
-- 移动端友好
-
-### 4.2 MVP 差异化功能（至少 1 个）
-
-从以下选择一个作为主打：
-
-- **口语模式**：偏向自然对话翻译
-- **直译 / 意译切换**
-- **俚语优先理解模式**
-- **文化注释提示（可选）**
-
-### 4.3 非 MVP（后续阶段）
-
-- 翻译历史记录
-- 用户收藏常用句
-- 多版本翻译对比
-- 多语言切换 UI
-
----
-
-## 五、模型与 AI 能力设计（文字层面）
-
-### 5.1 模型使用原则
-
-- 以 TranslateGemma / Gemma 系模型作为核心翻译引擎
-- 针对不同语言设计专用 Prompt
-- 强调低资源语言语义完整性
-
-### 5.2 Prompt 策略（概念层面）
-
-- 明确指定：口语 / 书面语 / 社交语境
-- 明确翻译目标（自然表达优先）
-- 避免逐词翻译
-
----
-
-## 六、SEO 与内容策略（决定成败）
-
-### 6.1 核心 SEO 策略
-
-围绕以下关键词类型布局：
-
-- `translategemma`
-- `google translategemma`
-- `gemma `
-- `ollama translategemma `
-- `ollama `
-- `translate gemma `
-
-
-### 6.2 页面结构建议
-
-- 首页：主语言对 + TranslateGemma 说明
-- 语言页：单独 Landing Page
-- 教程页：
-  - 如何翻译俚语
-  - 常见错误示例
-
-### 6.3 TranslateGemma 品牌绑定
-
-- 页面标题明确出现 TranslateGemma
-- 独立介绍页：
-  - What is TranslateGemma
-  - Why TranslateGemma for low-resource languages
-
----
-
-## 七、商业化设计（阶段性）
-
-### 7.1 初期（0-3 个月）
-
-- 完全免费
-- 建立流量与反馈
-
-### 7.2 中期（3-6 个月）
-
-- 免费额度 + 订阅制
-- 高级翻译模式收费
-
-### 7.3 后期（6 个月+）
-
-- API 访问
-- 私有化部署
-- 企业定制语言模型
-
----
-
-## 八、风险与对策
-
-### 8.1 风险
-
-- 小语种数据不足
-- SEO 起量慢
-- 用户对“新模型”认知不足
-
-### 8.2 对策
-
-- 聚焦极少语言，做到最好
-- 用真实示例展示对比效果
-- 明确强调“低资源语言专用”
-
----
-
-## 九、阶段里程碑
-
-- 第 1 周：语言选择 + 产品定位确认
-- 第 2 周：MVP 功能完成
-- 第 3 周：首个语言 Landing Page + SEO
-- 第 4 周：用户反馈 + 迭代
-
----
-
-## 十、长期愿景
-
-将工具站发展为：
-
-> **低资源语言翻译与本地化的一站式平台**
-
-逐步从翻译工具，升级为：
-
-- 多语言内容生成
-- 出海本地化解决方案
-- 小语种 AI 能力服务商
-
+Ready to Redefine Your Digital Identity?
+Don't let your personality get lost in a sea of boring photos. Unleash your inner character and join 2 million+ users who are reimagining art through AI.
