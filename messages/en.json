@@ -1,24 +1,24 @@
 {
   "metadata": {
-    "title": "Caricature Generator - Fun AI Caricature Generator for Everyone",
-    "description": "Turn any photo into a cartoon in seconds with our fun AI Caricature Generator. Simple, fast, and free to try. Start creating today!",
+    "title": "Caricature Generator - Free AI Photo-to-Cartoon Maker",
+    "description": "Use our fun AI caricature generator to turn any photo into a cartoon portrait in seconds. This online photo-to-cartoon tool is fast, easy, and free to try. Start creating your cartoon today!",
     "terms": {
       "title": "Terms of Service - Caricature Generator",
-      "description": "View the terms of use for Caricature Generator AI services, including service usage rules, license agreements, and user rights and responsibilities"
+      "description": "Read the terms of service for our Caricature Generator AI tool, including usage rules, license details, and your rights when using our photo-to-cartoon service."
     },
     "privacy": {
       "title": "Privacy Policy - Caricature Generator",
-      "description": "Learn how Caricature Generator handles user data and protects privacy to ensure the security of your images and content"
+      "description": "Learn how our Caricature Generator handles your data and protects your privacy when you create cartoon images. We ensure your photos and personal data are secure."
     },
     "cookies": {
       "title": "Cookie Policy - Caricature Generator",
-      "description": "Learn how Caricature Generator uses Cookies and related technologies to optimize user experience and website performance"
+      "description": "Learn how our Caricature Generator uses cookies and related technologies to enhance user experience and site performance."
     }
   },
   "demoBanner": {
-    "prefix": "This is the",
+    "prefix": "Experience our",
     "productName": "Caricature Generator",
-    "suffix": "demo site. After experiencing the full features,",
+    "suffix": "– the free online tool for turning photos into cartoons. After enjoying its fun features,",
     "cta": "Try it for free now"
   },
   "navbar": {
@@ -39,25 +39,25 @@
     }
   },
   "hero": {
-    "title": "Caricature Generator – Fun AI Caricature Generator for Everyone",
-    "description": "Welcome to the caricature generator that everyone loves. Built for fun, speed, and creativity. Turn any photo into a cartoon in seconds. Simple, playful, and free to try.",
-    "badge": "✨ Turn Photos into Cartoons Instantly",
+    "title": "Caricature Generator – The Fun AI Photo-to-Cartoon Tool",
+    "description": "Welcome to our popular AI Caricature Generator – the fun online tool that turns any photo into a cartoon portrait. Transform your selfies and photos into creative caricatures in seconds. It's fast, easy, and free to try. Start creating your cartoon image today!",
+    "badge": "✨ Turn Photos into Funny Caricatures Instantly",
     "features": {
-      "readyToUse": "No Credit Card Required",
-      "multiScenario": "Privacy & Security Assurance",
-      "professionalOutput": "High-Quality Results"
+      "readyToUse": "No Sign-Up or Credit Card Required",
+      "multiScenario": "Private & Secure Usage",
+      "professionalOutput": "High-Quality Cartoon Output"
     }
   },
   "features": {
-    "title": "Why Choose Our Caricature Generator",
-    "liveGeneration": "Fast Results",
+    "title": "Why Choose Our AI Caricature Generator",
+    "liveGeneration": "Instant Cartoon Creation",
     "contentSummaryAgent": {
       "title": "Advanced AI Technology",
-      "description": "Uses advanced AI to transform photos into cartoons. Simple, playful, and free to try. Works online with no installation required. Focuses on fun and creative results."
+      "description": "Powered by advanced AI, our Caricature Generator instantly turns your photos into playful cartoon portraits. This online photo-to-cartoon tool requires no installation or design skills – simply upload a photo and the AI will create your custom caricature in seconds. It's fun, fast, and free to try!"
     },
     "podcastAgent": {
-      "title": "Easy to Use",
-      "description": "Anyone can use our caricature generator without skills. Just upload your photo, let the AI analyze it, and get a cartoon image instantly. Handles everything automatically for you."
+      "title": "User-Friendly",
+      "description": "Anyone can use our fun caricature generator – no skills needed. Simply upload a photo and let the AI tool create a funny cartoon portrait automatically. It's that easy!"
     }
   },
   "faq": {
@@ -69,19 +69,19 @@
     "usage": {
       "howToStart": {
         "question": "How does the Caricature Generator work?",
-        "answer": "It's easy! Just upload your photo, let our AI analyze it, and get a cartoon image instantly. No skills required - the generator handles everything automatically."
+        "answer": "Using our Caricature Generator is simple. Upload a photo and our AI will automatically transform it into a fun cartoon portrait in seconds. No design skills or software required. The process is fully automated for you."
       },
       "voiceQuality": {
         "question": "Do I need to install anything?",
-        "answer": "No installation needed! Our Caricature Generator works completely online. Just visit our website, upload your photo, and start creating."
+        "answer": "No installation needed! Our Caricature Generator runs entirely online. Just visit the website, upload your photo, and the AI will create your cartoon image instantly."
       },
       "contentOwnership": {
         "question": "Is the Caricature Generator free to use?",
-        "answer": "Yes, we offer a free version that allows you to try the basic features. We also have premium plans for more advanced options and unlimited usage."
+        "answer": "Yes! Our Caricature Generator offers a free plan that includes a limited number of cartoon creations each day. Enjoy the basic features without any cost. For unlimited use, high-resolution results, and commercial rights, upgrade to our premium plans at any time."
       },
       "dataPrivacy": {
         "question": "Is my photo data secure?",
-        "answer": "Yes, we take privacy seriously. Your photos are processed securely, and we do not store your images longer than necessary. All data is transmitted encrypted to ensure your privacy."
+        "answer": "Absolutely. We take your privacy seriously. The Caricature Generator processes photos securely and encrypts all data. We do not store your images longer than needed. Create your fun cartoons with confidence."
       }
     },
     "pricing": {
@@ -100,14 +100,14 @@
     }
   },
   "pricing": {
-    "title": "Simple Pricing",
+    "title": "Pricing Plans",
     "recommended": "Recommended",
     "free": {
       "name": "Free",
       "price": "$0 / month",
-      "description": "Basic caricature generation with watermark, limited to 5 images per day",
+      "description": "Basic AI caricature creation with watermark. Turn up to 5 photos per day into cartoon images for free.",
       "features": {
-        "template": "AI-powered caricature generation",
+        "template": "AI-powered caricature creation",
         "auth": "5 free images per day",
         "support": "Basic community support"
       },
@@ -120,9 +120,9 @@
       "discountPercent": "50",
       "savings": "$10",
       "discountBadge": "Limited Time 50% Off",
-      "description": "Unlimited caricature generation without watermark, high-resolution downloads",
+      "description": "Unlimited cartoon creation with no watermarks and high-resolution downloads.",
       "features": {
-        "template": "Unlimited image generation",
+        "template": "Unlimited cartoon generation",
         "payment": "No watermarks on results",
         "support": "Priority email support"
       },
@@ -137,18 +137,18 @@
     "enterprise": {
       "name": "Enterprise",
       "price": "Contact Us",
-      "description": "For businesses and teams with custom needs",
+      "description": "For businesses and teams with custom cartoon creation needs.",
       "features": {
-        "custom": "API access for integration",
+        "custom": "API access and integration",
         "deployment": "Bulk image processing",
         "support": "Dedicated account manager",
-        "training": "Custom AI model training"
+        "training": "Custom AI models"
       },
       "cta": "Contact Sales"
     }
   },
   "footer": {
-    "description": "Ready to turn your photos into fun cartoons? Join thousands of users who love our Caricature Generator. Fast, easy, and free to try - start creating today!",
+    "description": "Ready to turn your photos into fun cartoon caricatures? Join thousands of users who love our AI Caricature Generator. It's fast, easy, and free to try – start creating your cartoon portraits today!",
     "services": {
       "title": "Services",
       "features": "Features",
@@ -169,19 +169,19 @@
     },
     "newsletter": {
       "title": "Subscribe to Updates",
-      "description": "Get the latest news and updates about our Caricature Generator",
+      "description": "Get the latest news, tips, and updates about our AI Caricature Generator. Learn about new cartoon styles, features, and special offers.",
       "placeholder": "Please enter your email address",
       "subscribe_button": "Subscribe",
       "subscribing": "Subscribing...",
-      "success": "Subscribed Successfully!",
+      "success": "Subscribed successfully!",
       "subscribe": {
-        "successMessage": "Subscribed successfully! Thank you for your subscription, we will send you the latest Caricature Generator-related news regularly.",
+        "successMessage": "Subscribed successfully! Thank you! We'll send you the latest news and updates about our Caricature Generator.",
         "subscribeError": "Subscription failed, please try again later",
         "networkError": "Network error, please try again later"
       },
       "unsubscribe": {
         "title": "Unsubscribe from Mailing List",
-        "description": "We're sorry to see you go, but we respect your choice",
+        "description": "We're sorry to see you go, but we respect your choice.",
         "emailLabel": "Email Address",
         "emailPlaceholder": "Please enter your email address",
         "button": "Unsubscribe",
@@ -201,12 +201,12 @@
   },
   "verify": {
     "title": "Email Verification",
-    "description": "Verify your email address to complete account registration",
+    "description": "Verify your email to activate your Caricature Generator account and start creating your cartoons.",
     "meta_title": "Email Verification",
-    "meta_description": "Verify your Caricature Generator account email to complete account activation",
+    "meta_description": "Activate your Caricature Generator account by verifying your email.",
     "verifying": "Verifying your email...",
     "success": "Email verified successfully!",
-    "failed": "Email verification failed",
+    "failed": "Email verification failed, please try again.",
     "token_missing": "Verification token is missing",
     "failed_retry": "Verification failed, please try again later",
     "please_wait": "Please wait while we verify your email address...",
@@ -218,9 +218,9 @@
   "auth": {
     "meta_title": "User Authentication - Caricature Generator",
     "signin_title": "Sign In",
-    "signin_description": "Sign in to your Caricature Generator account and start creating fun cartoons",
+    "signin_description": "Sign in to your Caricature Generator account and start creating fun cartoons.",
     "signup_title": "Sign Up",
-    "signup_description": "Register a Caricature Generator account and start your cartoon creation journey",
+    "signup_description": "Register for a Caricature Generator account and start your fun cartoon creation journey.",
     "error_title": "Authentication Error",
     "error_description": "An error occurred during authentication, please try again or contact technical support",
     "error_page_title": "Login Failed",
@@ -292,15 +292,15 @@
   },
   "forgot_password": {
     "title": "Forgot Password",
-    "description": "Enter your email address and we will send you a password reset link",
+    "description": "Enter your email address and we'll send you a password reset link for your Caricature Generator account.",
     "meta_title": "Forgot Password",
-    "meta_description": "Retrieve your Caricature Generator account password and reset it via email",
+    "meta_description": "Reset your Caricature Generator account password via email.",
     "email_label": "Email Address",
     "email_placeholder": "Please enter your email address",
     "send_reset_link": "Send Reset Link",
     "sending": "Sending...",
-    "success_message": "Password reset link has been sent to your email",
-    "check_email": "Please check your email and click the link to reset your password",
+    "success_message": "Password reset link has been sent to your email.",
+    "check_email": "Please check your email and click the link to reset your password.",
     "back_to_login": "Back to Login",
     "email_required": "Please enter your email address",
     "email_invalid": "Please enter a valid email address",
@@ -310,9 +310,9 @@
   },
   "reset_password": {
     "title": "Reset Password",
-    "description": "Please enter your new password",
+    "description": "Please enter your new password for your Caricature Generator account.",
     "meta_title": "Reset Password",
-    "meta_description": "Reset your Caricature Generator account password and set a new secure password",
+    "meta_description": "Reset your Caricature Generator account password and set a new secure password.",
     "password_label": "New Password",
     "password_placeholder": "Please enter your new password",
     "confirm_password_label": "Confirm Password",
@@ -331,9 +331,9 @@
   },
   "profile": {
     "title": "Profile",
-    "description": "View and manage your account information",
-    "menu": "Function Menu",
-    "please_login": "Please log in first to view your profile",
+    "description": "View and manage your Caricature Generator account details.",
+    "menu": "Menu",
+    "please_login": "Please log in first to view your profile.",
     "login_required": "Please log in first",
     "no_name_set": "Username not set",
     "not_set": "Not set",
@@ -441,24 +441,24 @@
     "plan_free": "Free Plan",
     "plan_pro": "Pro Plan",
     "plan_enterprise": "Enterprise Plan",
-    "plan_free_description": "Basic template for individual developers",
-    "plan_pro_description": "Full features for professional development",
+    "plan_free_description": "Basic plan for individual users with limited credits",
+    "plan_pro_description": "Full features for professional use",
     "plan_enterprise_description": "Custom services for enterprise teams",
     "manage_subscription": "Manage License",
     "upgrade_to_pro": "Upgrade to Pro",
     "upgrade_benefits_title": "Upgrade for More Benefits",
-    "upgrade_benefits_1": "Complete SaaS template source code",
+    "upgrade_benefits_1": "Complete source code access",
     "upgrade_benefits_2": "Priority technical support",
-    "upgrade_benefits_3": "12B model commercial license",
-    "upgrade_benefits_4": "Bulk translation API",
+    "upgrade_benefits_3": "Commercial usage license",
+    "upgrade_benefits_4": "Bulk image processing API",
     "points_purchase": "Points Purchase",
-    "points_purchase_description": "Purchase a license to access full TranslateGemma benefits",
+    "points_purchase_description": "Purchase a license to access full Caricature Generator benefits",
     "points_package_starter": "Starter Package",
     "points_package_popular": "Popular Package",
     "points_package_premium": "Premium Package",
     "points_usage_title": "License Benefits",
-    "points_usage_ai_service": "Multi-model translation access",
-    "points_usage_premium_features": "Premium translation features",
+    "points_usage_ai_service": "AI services access",
+    "points_usage_premium_features": "Premium features",
     "points_usage_priority_support": "Priority technical support",
     "purchase_now": "Buy Now",
     "processing_payment": "Processing...",
@@ -475,7 +475,7 @@
     "view_pricing": "View Pricing",
     "purchased_points_label": "Purchased Benefits (Never Expire)",
     "gifted_points_label": "Gifted Benefits (Expire When Subscription Ends)",
-    "subscription_gift_notice": "You are currently subscribed to the Pro version and have access to professional-grade translation benefits",
+    "subscription_gift_notice": "You are currently subscribed to the Pro plan and have access to full premium benefits.",
     "purchased_points": "Purchased Benefits",
     "purchased_points_description": "Benefits purchased via payment, never expire and can be used long-term",
     "gifted_points": "Gifted Benefits",
@@ -532,21 +532,22 @@
   "dashboard": {
     "payment_success": {
       "title": "Purchase Successful!",
-      "subtitle": "Welcome to TranslateGemma Pro",
-      "processing_title": "Processing Payment Result",
+      "subtitle": "Welcome to Caricature Generator Pro",
+      "processing_title": "Processing Purchase",
       "processing_description": "Please wait while we confirm your purchase status...",
-      "verifying_title": "Verifying Purchase Status",
-      "verifying_description": "Confirming your Pro version purchase...",
-      "success_toast": "🎉 Pro version purchased successfully! You now have access to full multimodal translation features and technical support",
-      "no_session_toast": "💡 You have reached the purchase success page, please navigate using the buttons below"
+      "verifying_title": "Verifying Purchase",
+      "verifying_description": "Confirming your Pro plan purchase...",
+      "success_toast": "🎉 Pro version purchased successfully! You now have unlimited cartoon creation and high-resolution downloads.",
+      "no_session_toast": "💡 You have reached the purchase success page. Please use the links below to continue."
     },
     "subscription_info": {
-      "title": "Pro Version License",
-      "status_label": "License Status:",
+      "title": "Pro Plan License",
+      "status_label": "Plan Status:",
       "status_active": "Active",
       "status_processing": "Processing",
-      "plan_label": "License Type:",
-      "plan_pro": "Pro Version",
+      "plan_label": "Plan Type:",
+      "plan_pro": "Pro Plan",
+      "plan_enterprise": "Enterprise Plan",
       "expires_label": "Support Expires:"
     },
     "points_reward": {
@@ -554,7 +555,7 @@
       "total_points": "Total Benefits",
       "purchased_points": "Purchased Benefits",
       "gifted_points": "Gifted Benefits",
-      "gift_notice": "🎁 You have access to full Pro version benefits, including multimodal translation, batch processing, and priority technical support!"
+      "gift_notice": "🎁 You have access to full Pro version benefits, including unlimited cartoon generation and priority technical support!"
     },
     "actions": {
       "view_profile": "View Profile",
@@ -568,8 +569,8 @@
   },
   "admin": {
     "newsletter": {
-      "meta_title": "Newsletter Statistics - TranslateGemma",
-      "meta_description": "View and manage newsletter statistics, including number of subscribers, language distribution, etc.",
+      "meta_title": "Newsletter Statistics - Caricature Generator",
+      "meta_description": "View and manage newsletter statistics, including subscriber count and distribution.",
       "title": "Newsletter Statistics",
       "stats": {
         "total_subscriptions": "Total Subscriptions",
@@ -598,22 +599,8 @@
           "active": "Active",
           "cancelled": "Cancelled"
         }
-      },
-      "actions": {
-        "retry": "Retry",
-        "refresh": "Refresh"
-      },
-      "error": {
-        "fetch_stats_failed": "Failed to fetch statistics",
-        "fetch_subscriptions_failed": "Failed to fetch subscription list"
       }
     }
-  },
-  "legal": {
-    "title": "Legal Terms",
-    "terms": "Terms of Service",
-    "privacy": "Privacy Policy",
-    "cookies": "Cookie Policy"
   },
   "unauthorized": {
     "title": "Access Denied",
@@ -623,86 +610,86 @@
     "signInAgain": "Sign In Again"
   },
   "testimonials": {
-    "title": "Industry Recognition",
-    "description": "Trusted by thousands of cross-border pioneers worldwide. TranslateGemma 12B even outperforms the 27B benchmark model with twice the parameter count. This is a major breakthrough in localization development.",
+    "title": "What People Are Saying",
+    "description": "Trusted by thousands worldwide, our AI Caricature Generator makes cartoon creation easy and fun. See why users love turning their photos into caricatures.",
     "items": [
       {
         "name": "Alex Johnson",
-        "title": "Cross-border E-commerce CEO",
-        "content": "TranslateGemma has enabled true contextual translation in our cross-border business! The 12B model runs smoothly on consumer-grade laptops, and the translation quality far exceeds traditional tools, allowing us to easily enter new markets.",
+        "title": "Graphic Designer",
+        "content": "I love the Caricature Generator! I uploaded a photo and got a hilarious cartoon in seconds. It's so fun to see yourself as a cartoon character.",
         "rating": 5
       },
       {
         "name": "Sarah Miller",
-        "title": "International Product Manager",
-        "content": "The offline capability of TranslateGemma is incredible! We can now provide translation services even in areas with poor connectivity. The 4B model runs perfectly on mobile devices.",
+        "title": "Social Media Manager",
+        "content": "The AI is impressive. It turned a group photo into a fun cartoon portrait. My friends and followers loved it. Great photo-to-cartoon tool!",
         "rating": 5
       },
       {
         "name": "Li Ming",
         "title": "Technical Director",
-        "content": "As a technical director, I am impressed by TranslateGemma's Gemma 3 architecture. The multimodal translation feature allows our product to directly translate text in images, greatly improving the user experience.",
+        "content": "No design skills needed – I just clicked and got an awesome cartoon of myself. The Caricature Generator made it super easy and fun.",
         "rating": 5
       },
       {
         "name": "David Chen",
-        "title": "Developer",
-        "content": "The OpenAI-compatible API makes integration seamless! We integrated TranslateGemma into our SaaS product in just hours. The context-aware translation is a game-changer.",
+        "title": "Digital Artist",
+        "content": "The cartoon quality is amazing and processing is fast. It's my go-to tool for creating fun avatars and illustrations from photos.",
         "rating": 5
       },
       {
-        "name": "Wang Xiaoyu",
-        "title": "Independent Developer",
-        "content": "TranslateGemma's local privacy-first design gives me peace of mind to use it. It supports full offline inference, ensuring that business secrets never leave the device and I have complete control over data assets. This is extremely important to us.",
+        "name": "caricature sir",
+        "title": "Blogger",
+        "content": "Privacy was important to me, and using the Caricature Generator was smooth and secure. I love the cute cartoon portraits I got.",
         "rating": 5
       },
       {
         "name": "Michael Rodriguez",
-        "title": "Enterprise User",
-        "content": "Perfect for enterprise deployment! The 27B model with custom domain fine-tuning has transformed our multilingual customer support. Translation quality is now native-level.",
+        "title": "Entrepreneur",
+        "content": "For our marketing campaign, we created cartoon versions of the staff. It was quick and easy, and everyone loved the results!",
         "rating": 5
       }
     ]
   },
   "blogPage": {
-    "title": "TranslateGemma Blog",
-    "subtitle": "Explore the latest trends and technical sharing of AI translation",
+    "title": "Caricature Generator Blog",
+    "subtitle": "Explore the latest trends and tips for creating cartoons with our AI Caricature Generator.",
     "contactPost": {
       "badge": "Latest",
       "date": "January 2026",
-      "author": "TranslateGemma Team",
-      "title": "Start Your Boundless Communication Now",
-      "description": "Ready to experience contextual translation? Join 10,000+ developers and cross-border sellers in their choice.",
+      "author": "Caricature Generator Team",
+      "title": "Start Creating Cartoon Masterpieces Today",
+      "description": "Ready to start your photo-to-cartoon journey? Join thousands using our AI Caricature Generator to create fun caricature portraits.",
       "contactMethods": {
         "title": "🤝 Contact Methods",
         "twitter": {
           "title": "Twitter",
-          "description": "Follow us for the latest updates",
-          "handle": "@translategemma"
+          "description": "Follow us on Twitter for the latest updates",
+          "handle": "@CaricatureGen"
         },
         "email": {
           "title": "Email",
-          "description": "Business cooperation and technical support",
-          "address": "support@translategemma.org"
+          "description": "Questions or feedback? Contact our team",
+          "address": "support@caricaturegen.ai"
         },
         "wechat": {
           "title": "WeChat",
-          "description": "Add WeChat for exclusive services",
-          "id": "translategemma"
+          "description": "Add us on WeChat for exclusive updates",
+          "id": "CaricatureGen"
         }
       },
       "services": {
-        "title": "🎯 What Can We Do For You?",
-        "podcast": "Open source translation model download and technical documentation",
-        "voiceover": "Multilingual translation solution integration",
-        "video": "Enterprise-level private deployment support",
-        "support": "7×24-hour professional technical support",
-        "custom": "Customize exclusive translation features according to your needs"
+        "title": "🎯 Why Choose Our Caricature Generator?",
+        "podcast": "100+ Cartoon Styles",
+        "voiceover": "Unlimited Photo Uploads",
+        "video": "High-Resolution Downloads",
+        "support": "24/7 Customer Support",
+        "custom": "Custom Cartoon Effects"
       },
       "cta": {
-        "title": "Ready to start your AI translation journey?",
-        "startNow": "Register a free account",
-        "contactUs": "View developer documentation"
+        "title": "Ready to unleash your creativity?",
+        "startNow": "Create a Free Account",
+        "contactUs": "Learn More"
       }
     },
     "otherPosts": {

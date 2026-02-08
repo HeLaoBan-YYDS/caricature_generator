@@ -30,9 +30,9 @@ Disallow: /auth/
 Disallow: /unauthorized/
 
 # 站点地图
-Sitemap: https://translategemma.one/sitemap.xml
-Sitemap: https://translategemma.one/sitemap.xml
-Sitemap: https://translategemma.one/sitemap.xml
+Sitemap: https://gptcaricature.online/sitemap.xml
+Sitemap: https://gptcaricature.online/sitemap.xml
+Sitemap: https://gptcaricature.online/sitemap.xml
 
 # 爬取延迟（毫秒）
 Crawl-delay: 1

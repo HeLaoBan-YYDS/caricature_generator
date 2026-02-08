@@ -33,10 +33,6 @@ export default function ChinesePage() {
 
       <Navbar />
       <main>
-        {/* 翻译工具 - 放在首页最顶部 */}
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-4">
-          <TranslateTool />
-        </div>
         <HeroSection />
         <FeaturesSection />
         <Testimonials />

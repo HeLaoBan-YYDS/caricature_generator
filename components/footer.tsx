@@ -99,13 +99,13 @@ export function Footer() {
                 <div className="relative w-8 h-8">
                   <Image
                     src="/logo.png"
-                    alt="TranslateGemma Logo"
+                    alt=" Logo"
                     fill
                     className="object-contain"
                   />
                 </div>
                 <span className="text-xl font-bold text-primary">
-                  TranslateGemma
+                  Caricature Generator
                 </span>
               </Link>
               <p className="text-muted-foreground leading-relaxed max-w-sm">

@@ -14,13 +14,13 @@ export function FeaturesSection() {
       icon: Shield,
       title: t("contentSummaryAgent.title"),
       description: t("contentSummaryAgent.description"),
-      image: "/auth-demo.png",
+      image: "/favicon.ico",
     },
     {
       icon: CreditCard,
       title: t("podcastAgent.title"),
       description: t("podcastAgent.description"),
-      image: "/payment-demo.png",
+      image: "/favicon.ico",
     },
   ]
 
